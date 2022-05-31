@@ -1,0 +1,3 @@
+app=CSVFile
+paramsfile=modeltests-basic
+extensions={csv}

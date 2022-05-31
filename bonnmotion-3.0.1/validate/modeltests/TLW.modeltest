@@ -1,0 +1,14 @@
+model=TLW
+ignore=3600.0
+randomSeed=1400742215716
+x=200.0
+y=200.0
+duration=10800.0
+nn=5
+circular=false
+alpha=1.0
+beta=1.0
+size_max=1500.0
+s_min=30.0
+s_max=3600.0
+boundary_condition=1.0

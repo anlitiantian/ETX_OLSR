@@ -1,0 +1,17 @@
+model=OriginalGaussMarkov
+ignore=3600.0
+randomSeed=1282050093162
+x=200.0
+y=200.0
+duration=3000.0
+nn={10;50;100}
+circular=false
+updateFrequency=2.5
+velocityStdDev={0.1;0.2}
+alpha=1.0
+avgSpeed={0.0;1.0}
+maxSpeed=Infinity
+
+[testcase]
+x=1000.0
+y=1000.0

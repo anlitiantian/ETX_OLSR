@@ -1,0 +1,14 @@
+model=Column
+ignore=3600.0
+randomSeed=1282050998765
+x=200.0
+y=200.0
+duration=3000.0
+nn=20
+circular=false
+numgroups={2;4}
+refptseparation=5.0
+maxdist=2.5
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0

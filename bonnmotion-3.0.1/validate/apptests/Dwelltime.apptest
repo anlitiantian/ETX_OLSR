@@ -1,0 +1,3 @@
+app=Dwelltime
+paramsfile=modeltests-basic/RandomWaypoint.modeltest
+extensions={bettstetter_statistics;bettstetter_statistics2}

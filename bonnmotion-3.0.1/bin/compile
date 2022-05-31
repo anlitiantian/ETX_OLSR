@@ -1,0 +1,45 @@
+#!/bin/bash
+
+BONNMOTION="/home/mrliu/ns333/ns333/bonnmotion-3.0.1"
+PACKAGE="edu.bonn.cs.iv.bonnmotion"
+CLASSPATH="/home/mrliu/ns333/ns333/bonnmotion-3.0.1/classes::/home/mrliu/ns333/ns333/bonnmotion-3.0.1/lib/GeographicLib-1.31.jar:/home/mrliu/ns333/ns333/bonnmotion-3.0.1/lib/jackson-core-2.2.2.jar:/home/mrliu/ns333/ns333/bonnmotion-3.0.1/lib/mysql-connector-java-5.1.25-bin.jar:/home/mrliu/ns333/ns333/bonnmotion-3.0.1/lib/osmpbf-1.3.3.jar:/home/mrliu/ns333/ns333/bonnmotion-3.0.1/lib/proj4j-0.1.0.jar:/home/mrliu/ns333/ns333/bonnmotion-3.0.1/lib/protobuf-java-2.5.0.jar"
+JAVAPATH="/opt/jvm/jdk1.8.0_281/bin"
+DOCPATH="/home/mrliu/ns333/ns333/bonnmotion-3.0.1/javadoc"
+JAVA="$JAVAPATH/java"
+JAVAC="$JAVAPATH/javac"
+JAVADOC="$JAVAPATH/javadoc"
+
+################################################################################
+## A validation script for                                                    ##
+## BonnMotion - a mobility scenario generation and analysis tool              ##
+## Copyright (C) 2002-2012 University of Bonn                                 ##
+## Copyright (C) 2012-2016 University of Osnabrueck                           ##
+##                                                                            ##
+## This program is free software; you can redistribute it and/or modify       ##
+## it under the terms of the GNU General Public License as published by       ##
+## the Free Software Foundation; either version 2 of the License, or          ##
+## (at your option) any later version.                                        ##
+##                                                                            ##
+## This program is distributed in the hope that it will be useful,            ##
+## but WITHOUT ANY WARRANTY; without even the implied warranty of             ##
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the              ##
+## GNU General Public License for more details.                               ##
+##                                                                            ##
+## You should have received a copy of the GNU General Public License          ##
+## along with this program; if not, write to the Free Software                ##
+## Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA  ##
+################################################################################
+
+cd "${BONNMOTION}/src"
+test ! -d ../classes && mkdir ../classes
+for i in `find . -name "*.java"`; do
+	DIR=`dirname $i`
+	BASE=`basename $i`
+	CLASSFILE="../classes/${DIR}/${BASE%%.*}.class"
+	if [ \( "$1" = "all" \) -o \( ! -e "${CLASSFILE}" \) -o \( $i -nt "${CLASSFILE}" \) ]
+	then
+		echo -n Compiling $BASE ...
+		$JAVAC -d ../classes -sourcepath . -classpath "$CLASSPATH" $i
+		echo " done."
+	fi
+done

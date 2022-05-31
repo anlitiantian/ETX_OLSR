@@ -1,0 +1,4 @@
+app=GPXImport
+paramsfile=modeltests-basic
+appparams=-p epsg:32632 -F {&}gpxtest -f apptests/kreis_freerunner.gpx
+extensions={NULL}

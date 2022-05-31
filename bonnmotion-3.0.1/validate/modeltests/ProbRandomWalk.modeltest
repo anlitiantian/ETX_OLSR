@@ -1,0 +1,13 @@
+model=ProbRandomWalk
+ignore=3600.0
+randomSeed=1282049512816
+x=200.0
+y=200.0
+duration=3000.0
+nn={10:100:10}
+circular=false
+interval=1.0
+
+[testcase]
+x=1000.0
+y=1000.0

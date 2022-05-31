@@ -1,0 +1,14 @@
+model=Boundless
+ignore=3600.0
+randomSeed=1371744945899
+x=200.0
+y=200.0
+duration=600.0
+nn={10;50}
+circular=false
+deltaT={0.5;1.0}
+accelMax={1.0;2.0}
+alpha={1.0;3.0}
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0

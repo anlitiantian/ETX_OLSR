@@ -1,0 +1,15 @@
+# All nodes in the scenario are placed at the StartVertex
+Pos=StartVertex,0,0,N1;N3,Room
+Pos=N1,100,0,StartVertex;N2,Room
+Pos=N2,100,100,N1;N3,Room
+Pos=N3,0,100,N2;StartVertex,Room
+#
+#
+# (0,0)                      (100,0)
+# StartVertex ------------------N1
+#   |                           |
+#   |                           |
+#   |                           |
+#   |                           |
+#  N3---------------------------N2
+# (0,100)                    (100,100)

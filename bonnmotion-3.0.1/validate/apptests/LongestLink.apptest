@@ -1,0 +1,3 @@
+app=LongestLink
+paramsfile=modeltests-basic
+extensions={LongestLink_}

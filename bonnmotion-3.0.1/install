@@ -1,0 +1,110 @@
+#!/bin/bash
+
+echo "BonnMotion - a mobility scenario generation and analysis tool"
+echo "Copyright (C) 2002-2012 University of Bonn"
+echo "Copyright (C) 2012-2016 University of Osnabrueck"
+echo
+echo "This program is free software; you can redistribute it and/or modify"
+echo "it under the terms of the GNU General Public License as published by"
+echo "the Free Software Foundation; either version 2 of the License, or"
+echo "(at your option) any later version."
+echo
+echo "This program is distributed in the hope that it will be useful,"
+echo "but WITHOUT ANY WARRANTY; without even the implied warranty of"
+echo "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the"
+echo "GNU General Public License for more details."
+echo
+echo "You should have received a copy of the GNU General Public License"
+echo "along with this program; if not, write to the Free Software"
+echo "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+echo
+
+OS=`uname -s | tr A-Z a-z | sed -e s/_.\*//`
+
+PACKAGE=edu.bonn.cs.iv.bonnmotion
+JAVAPATH=`which java 2> /dev/null`
+if [ ! "$JAVAPATH" = "" ]
+then
+	JAVAPATH=`dirname ${JAVAPATH}`
+fi
+echo -n Please enter your Java binary path \[$JAVAPATH\]:\ 
+read KBDENTRY
+if [ ! "$KBDENTRY" = "" ]
+then
+	JAVAPATH=$KBDENTRY
+fi
+if [ -x "${JAVAPATH}/java" ]
+then
+	cd `dirname $0`
+	BONNMOTION=`pwd`
+
+	cd "${JAVAPATH}"
+	JAVAPATH=`pwd`
+	cd "${BONNMOTION}"
+
+	CLASSPATH="${BONNMOTION}/classes"
+	DOCPATH="${BONNMOTION}/javadoc"
+	if [ ! -d "${CLASSPATH}" ]
+	then
+		mkdir "${CLASSPATH}"
+	fi
+	if [ ! -d "${DOCPATH}" ]
+	then
+		mkdir "${DOCPATH}"
+	fi
+	if [ $OS = "cygwin" ]
+	then
+		cd "${CLASSPATH}"
+		CLASSPATH=`cmd.exe /c cd`
+		cd "${DOCPATH}"
+		DOCPATH=`cmd.exe /c cd`
+	fi
+	
+	for l in $BONNMOTION/lib/*.jar
+	do
+		LIBRARYPATH=$LIBRARYPATH:$l
+	done
+
+	cd "${BONNMOTION}/bin/.tail"
+	APPS=`ls`
+	cd "${BONNMOTION}/bin"
+
+	echo \#\!/bin/bash > .head
+	echo >> .head
+	echo BONNMOTION=\"$BONNMOTION\" >> .head
+	echo PACKAGE=\"$PACKAGE\" >> .head
+	echo CLASSPATH=\"$CLASSPATH:$LIBRARYPATH\" >> .head
+	echo JAVAPATH=\"$JAVAPATH\" >> .head
+	echo DOCPATH=\"$DOCPATH\" >> .head
+	echo JAVA=\"\$JAVAPATH/java\" >> .head
+	echo JAVAC=\"\$JAVAPATH/javac\" >> .head
+	echo JAVADOC=\"\$JAVAPATH/javadoc\" >> .head
+	echo >> .head
+
+	echo -n Creating scripts ...
+	for a in $APPS
+	do
+		if [ ! -d $a ]
+		then
+			echo -n \ $a ...
+			cat .head .tail/$a > $a
+			chmod +x $a
+		fi
+	done
+
+	rm .head
+
+	echo " done."
+	
+	if [ -e "compile" ]
+	then
+		echo "Starting compilation ..."
+		./compile
+	fi
+	echo "done."
+	echo
+	echo "$ ./bin/bm -h"
+	./bm
+else
+	echo No executable \"$JAVAPATH/java\", aborting.
+fi

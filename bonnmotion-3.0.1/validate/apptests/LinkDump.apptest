@@ -1,0 +1,8 @@
+app=LinkDump
+paramsfile=modeltests-basic
+extensions={ict_50.0;ld_50.0}
+appparams=-r 50 -d -j
+
+[testcase]
+extensions={ict_100.0;ld_100.0}
+appparams=-r 100 -d -j

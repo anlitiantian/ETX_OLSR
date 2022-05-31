@@ -1,0 +1,16 @@
+model=SteadyStateRandomWaypoint
+ignore=0.0
+randomSeed=1311164385741
+x=200.0
+y=200.0
+duration=600.0
+nn={10:100:10}
+circular=false
+speedMean=1.5
+speedDelta=0.5
+pauseMean=1.0
+pauseDelta=0.3
+
+[testcase]
+x=1000.0
+y=1000.0

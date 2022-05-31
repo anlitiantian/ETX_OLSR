@@ -1,0 +1,16 @@
+model=StaticDrift
+ignore=3600.0
+randomSeed=1320082490302
+x=200.0
+y=200.0
+duration={600.0;1000.0}
+nn=10
+circular=false
+deltaX=5.0
+deltaY=5.0
+input_filename={$}StaticDrift.pos
+
+[testcase]
+z=200.0
+deltaZ=5.0
+input_filename={$}StaticDrift3D.pos

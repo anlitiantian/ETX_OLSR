@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib64
+includedir=/usr/local/include/ns3.33
+
+Name: libns3-buildings
+Description: ns-3 module ns3-buildings
+Version: 3.33
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.33-buildings-debug
+Cflags: -I${includedir}
+Requires: libns3.33-mobility-debug libns3.33-propagation-debug libns3.33-config-store-debug

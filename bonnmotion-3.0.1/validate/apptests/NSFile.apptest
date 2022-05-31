@@ -1,0 +1,3 @@
+app=NSFile
+paramsfile=modeltests-basic
+extensions={ns_movements;ns_params}

@@ -1,0 +1,5390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx
+  version="1.0"
+  creator="GPSBabel - http://www.gpsbabel.org"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.topografix.com/GPX/1/0"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<time>2009-11-09T14:58:49Z</time>
+<bounds minlat="50.617736000" minlon="7.126893000" maxlat="50.633968000" maxlon="7.129612000"/>
+<trk>
+<trkseg>
+<trkpt lat="50.617818000" lon="7.127074000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:40Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.080000</hdop>
+</trkpt>
+<trkpt lat="50.617815000" lon="7.127050000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:41Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.080000</hdop>
+</trkpt>
+<trkpt lat="50.617809000" lon="7.127031000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:42Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.080000</hdop>
+</trkpt>
+<trkpt lat="50.617800000" lon="7.127005000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:43Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.080000</hdop>
+</trkpt>
+<trkpt lat="50.617801000" lon="7.126990000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:44Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.080000</hdop>
+</trkpt>
+<trkpt lat="50.617801000" lon="7.126990000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:44Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.080000</hdop>
+</trkpt>
+<trkpt lat="50.617775000" lon="7.126946000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:46Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.080000</hdop>
+</trkpt>
+<trkpt lat="50.617765000" lon="7.126933000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:47Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.090000</hdop>
+</trkpt>
+<trkpt lat="50.617756000" lon="7.126919000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:49Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.090000</hdop>
+</trkpt>
+<trkpt lat="50.617746000" lon="7.126906000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:49Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.080000</hdop>
+</trkpt>
+<trkpt lat="50.617736000" lon="7.126893000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:51Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.080000</hdop>
+</trkpt>
+<trkpt lat="50.618379000" lon="7.128672000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:26:52Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618425000" lon="7.128776000">
+  <ele>232.110000</ele>
+  <time>2009-11-04T18:26:53Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618417000" lon="7.128802000">
+  <ele>237.210000</ele>
+  <time>2009-11-04T18:26:54Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618415000" lon="7.128814000">
+  <ele>239.170000</ele>
+  <time>2009-11-04T18:26:55Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618389000" lon="7.128811000">
+  <ele>242.450000</ele>
+  <time>2009-11-04T18:26:57Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618379000" lon="7.128806000">
+  <ele>243.210000</ele>
+  <time>2009-11-04T18:26:57Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618369000" lon="7.128798000">
+  <ele>243.690000</ele>
+  <time>2009-11-04T18:26:59Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618361000" lon="7.128790000">
+  <ele>243.680000</ele>
+  <time>2009-11-04T18:27:00Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618355000" lon="7.128784000">
+  <ele>243.840000</ele>
+  <time>2009-11-04T18:27:01Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618349000" lon="7.128777000">
+  <ele>243.780000</ele>
+  <time>2009-11-04T18:27:02Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618343000" lon="7.128768000">
+  <ele>243.590000</ele>
+  <time>2009-11-04T18:27:03Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.790000</hdop>
+</trkpt>
+<trkpt lat="50.618327000" lon="7.128751000">
+  <ele>244.740000</ele>
+  <time>2009-11-04T18:27:04Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.310000</hdop>
+</trkpt>
+<trkpt lat="50.618319000" lon="7.128741000">
+  <ele>245.090000</ele>
+  <time>2009-11-04T18:27:06Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.310000</hdop>
+</trkpt>
+<trkpt lat="50.618310000" lon="7.128730000">
+  <ele>245.260000</ele>
+  <time>2009-11-04T18:27:07Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.310000</hdop>
+</trkpt>
+<trkpt lat="50.618303000" lon="7.128721000">
+  <ele>245.290000</ele>
+  <time>2009-11-04T18:27:08Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.320000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128712000">
+  <ele>245.230000</ele>
+  <time>2009-11-04T18:27:09Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.320000</hdop>
+</trkpt>
+<trkpt lat="50.618293000" lon="7.128706000">
+  <ele>245.370000</ele>
+  <time>2009-11-04T18:27:10Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.320000</hdop>
+</trkpt>
+<trkpt lat="50.618293000" lon="7.128705000">
+  <ele>245.600000</ele>
+  <time>2009-11-04T18:27:11Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.310000</hdop>
+</trkpt>
+<trkpt lat="50.618293000" lon="7.128705000">
+  <ele>245.640000</ele>
+  <time>2009-11-04T18:27:12Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.310000</hdop>
+</trkpt>
+<trkpt lat="50.618295000" lon="7.128707000">
+  <ele>245.480000</ele>
+  <time>2009-11-04T18:27:13Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.310000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128709000">
+  <ele>245.310000</ele>
+  <time>2009-11-04T18:27:14Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.320000</hdop>
+</trkpt>
+<trkpt lat="50.618299000" lon="7.128708000">
+  <ele>245.610000</ele>
+  <time>2009-11-04T18:27:16Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.320000</hdop>
+</trkpt>
+<trkpt lat="50.618307000" lon="7.128704000">
+  <ele>246.780000</ele>
+  <time>2009-11-04T18:27:22Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618305000" lon="7.128698000">
+  <ele>247.290000</ele>
+  <time>2009-11-04T18:27:24Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618304000" lon="7.128696000">
+  <ele>247.390000</ele>
+  <time>2009-11-04T18:27:25Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.970000</hdop>
+</trkpt>
+<trkpt lat="50.618303000" lon="7.128694000">
+  <ele>247.530000</ele>
+  <time>2009-11-04T18:27:26Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618300000" lon="7.128692000">
+  <ele>247.980000</ele>
+  <time>2009-11-04T18:27:27Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618299000" lon="7.128686000">
+  <ele>248.050000</ele>
+  <time>2009-11-04T18:27:29Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.970000</hdop>
+</trkpt>
+<trkpt lat="50.618295000" lon="7.128683000">
+  <ele>248.140000</ele>
+  <time>2009-11-04T18:27:30Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618292000" lon="7.128683000">
+  <ele>248.290000</ele>
+  <time>2009-11-04T18:27:31Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618292000" lon="7.128684000">
+  <ele>248.420000</ele>
+  <time>2009-11-04T18:27:32Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618292000" lon="7.128684000">
+  <ele>248.410000</ele>
+  <time>2009-11-04T18:27:33Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618294000" lon="7.128683000">
+  <ele>248.320000</ele>
+  <time>2009-11-04T18:27:34Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128682000">
+  <ele>248.230000</ele>
+  <time>2009-11-04T18:27:35Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128682000">
+  <ele>248.340000</ele>
+  <time>2009-11-04T18:27:37Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128682000">
+  <ele>248.430000</ele>
+  <time>2009-11-04T18:27:38Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618296000" lon="7.128681000">
+  <ele>248.400000</ele>
+  <time>2009-11-04T18:27:39Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618296000" lon="7.128681000">
+  <ele>248.400000</ele>
+  <time>2009-11-04T18:27:39Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618296000" lon="7.128678000">
+  <ele>248.110000</ele>
+  <time>2009-11-04T18:27:41Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618296000" lon="7.128676000">
+  <ele>247.870000</ele>
+  <time>2009-11-04T18:27:42Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128674000">
+  <ele>247.630000</ele>
+  <time>2009-11-04T18:27:43Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128673000">
+  <ele>247.390000</ele>
+  <time>2009-11-04T18:27:44Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618298000" lon="7.128671000">
+  <ele>247.100000</ele>
+  <time>2009-11-04T18:27:45Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618298000" lon="7.128666000">
+  <ele>246.730000</ele>
+  <time>2009-11-04T18:27:46Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618298000" lon="7.128663000">
+  <ele>246.520000</ele>
+  <time>2009-11-04T18:27:47Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618298000" lon="7.128660000">
+  <ele>246.320000</ele>
+  <time>2009-11-04T18:27:48Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618298000" lon="7.128658000">
+  <ele>246.150000</ele>
+  <time>2009-11-04T18:27:50Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618298000" lon="7.128656000">
+  <ele>246.060000</ele>
+  <time>2009-11-04T18:27:51Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618298000" lon="7.128653000">
+  <ele>245.880000</ele>
+  <time>2009-11-04T18:27:53Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618298000" lon="7.128652000">
+  <ele>245.820000</ele>
+  <time>2009-11-04T18:27:54Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128651000">
+  <ele>245.780000</ele>
+  <time>2009-11-04T18:27:55Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128651000">
+  <ele>245.760000</ele>
+  <time>2009-11-04T18:27:56Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.970000</hdop>
+</trkpt>
+<trkpt lat="50.618298000" lon="7.128654000">
+  <ele>245.960000</ele>
+  <time>2009-11-04T18:27:57Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>3.610000</hdop>
+</trkpt>
+<trkpt lat="50.618299000" lon="7.128656000">
+  <ele>246.070000</ele>
+  <time>2009-11-04T18:27:59Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>3.610000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128656000">
+  <ele>246.130000</ele>
+  <time>2009-11-04T18:28:00Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128656000">
+  <ele>246.090000</ele>
+  <time>2009-11-04T18:28:01Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618297000" lon="7.128657000">
+  <ele>246.270000</ele>
+  <time>2009-11-04T18:28:02Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618296000" lon="7.128657000">
+  <ele>246.390000</ele>
+  <time>2009-11-04T18:28:03Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618294000" lon="7.128653000">
+  <ele>246.690000</ele>
+  <time>2009-11-04T18:28:04Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618289000" lon="7.128647000">
+  <ele>247.150000</ele>
+  <time>2009-11-04T18:28:06Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618287000" lon="7.128644000">
+  <ele>247.290000</ele>
+  <time>2009-11-04T18:28:07Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618286000" lon="7.128643000">
+  <ele>247.380000</ele>
+  <time>2009-11-04T18:28:08Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618285000" lon="7.128641000">
+  <ele>247.490000</ele>
+  <time>2009-11-04T18:28:09Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618283000" lon="7.128640000">
+  <ele>247.600000</ele>
+  <time>2009-11-04T18:28:10Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618282000" lon="7.128640000">
+  <ele>247.690000</ele>
+  <time>2009-11-04T18:28:11Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>3.620000</hdop>
+</trkpt>
+<trkpt lat="50.618281000" lon="7.128638000">
+  <ele>247.920000</ele>
+  <time>2009-11-04T18:28:12Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.930000</hdop>
+</trkpt>
+<trkpt lat="50.618280000" lon="7.128635000">
+  <ele>248.030000</ele>
+  <time>2009-11-04T18:28:14Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618279000" lon="7.128633000">
+  <ele>248.100000</ele>
+  <time>2009-11-04T18:28:15Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618279000" lon="7.128631000">
+  <ele>248.130000</ele>
+  <time>2009-11-04T18:28:16Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618276000" lon="7.128627000">
+  <ele>248.140000</ele>
+  <time>2009-11-04T18:28:17Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.930000</hdop>
+</trkpt>
+<trkpt lat="50.618218000" lon="7.128582000">
+  <ele>248.490000</ele>
+  <time>2009-11-04T18:28:23Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.930000</hdop>
+</trkpt>
+<trkpt lat="50.618207000" lon="7.128573000">
+  <ele>248.590000</ele>
+  <time>2009-11-04T18:28:24Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.930000</hdop>
+</trkpt>
+<trkpt lat="50.618185000" lon="7.128554000">
+  <ele>248.780000</ele>
+  <time>2009-11-04T18:28:26Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.920000</hdop>
+</trkpt>
+<trkpt lat="50.618174000" lon="7.128545000">
+  <ele>248.840000</ele>
+  <time>2009-11-04T18:28:27Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.930000</hdop>
+</trkpt>
+<trkpt lat="50.618163000" lon="7.128537000">
+  <ele>248.880000</ele>
+  <time>2009-11-04T18:28:28Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.930000</hdop>
+</trkpt>
+<trkpt lat="50.618540000" lon="7.128964000">
+  <ele>257.870000</ele>
+  <time>2009-11-04T18:45:29Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.140000</hdop>
+</trkpt>
+<trkpt lat="50.618539000" lon="7.129029000">
+  <ele>257.910000</ele>
+  <time>2009-11-04T18:46:07Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.590000</hdop>
+</trkpt>
+<trkpt lat="50.618541000" lon="7.129025000">
+  <ele>257.910000</ele>
+  <time>2009-11-04T18:46:08Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.590000</hdop>
+</trkpt>
+<trkpt lat="50.618539000" lon="7.129027000">
+  <ele>257.910000</ele>
+  <time>2009-11-04T18:46:09Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.590000</hdop>
+</trkpt>
+<trkpt lat="50.618547000" lon="7.129024000">
+  <ele>257.910000</ele>
+  <time>2009-11-04T18:46:10Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.590000</hdop>
+</trkpt>
+<trkpt lat="50.618540000" lon="7.129028000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:11Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.590000</hdop>
+</trkpt>
+<trkpt lat="50.618536000" lon="7.129030000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:12Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.590000</hdop>
+</trkpt>
+<trkpt lat="50.618543000" lon="7.129028000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:14Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.590000</hdop>
+</trkpt>
+<trkpt lat="50.618546000" lon="7.129019000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:15Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.530000</hdop>
+</trkpt>
+<trkpt lat="50.618538000" lon="7.129012000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:16Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.530000</hdop>
+</trkpt>
+<trkpt lat="50.618539000" lon="7.129012000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:17Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.530000</hdop>
+</trkpt>
+<trkpt lat="50.618541000" lon="7.129002000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:18Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.090000</hdop>
+</trkpt>
+<trkpt lat="50.618537000" lon="7.129023000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:20Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.540000</hdop>
+</trkpt>
+<trkpt lat="50.618532000" lon="7.129020000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:21Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.540000</hdop>
+</trkpt>
+<trkpt lat="50.618531000" lon="7.128988000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:22Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.540000</hdop>
+</trkpt>
+<trkpt lat="50.618538000" lon="7.128931000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:23Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.540000</hdop>
+</trkpt>
+<trkpt lat="50.618552000" lon="7.128839000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:25Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.540000</hdop>
+</trkpt>
+<trkpt lat="50.618560000" lon="7.128809000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:26Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.540000</hdop>
+</trkpt>
+<trkpt lat="50.618564000" lon="7.128787000">
+  <ele>257.910000</ele>
+  <time>2009-11-04T18:46:27Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.540000</hdop>
+</trkpt>
+<trkpt lat="50.618566000" lon="7.128782000">
+  <ele>257.900000</ele>
+  <time>2009-11-04T18:46:28Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618569000" lon="7.128773000">
+  <ele>257.910000</ele>
+  <time>2009-11-04T18:46:29Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618569000" lon="7.128771000">
+  <ele>257.910000</ele>
+  <time>2009-11-04T18:46:30Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618566000" lon="7.128770000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:32Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618563000" lon="7.128767000">
+  <ele>257.940000</ele>
+  <time>2009-11-04T18:46:33Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618561000" lon="7.128764000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:34Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618558000" lon="7.128778000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:35Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618559000" lon="7.128777000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:36Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618559000" lon="7.128788000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:37Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618557000" lon="7.128791000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:39Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.300000</hdop>
+</trkpt>
+<trkpt lat="50.618555000" lon="7.128794000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:40Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.300000</hdop>
+</trkpt>
+<trkpt lat="50.618552000" lon="7.128795000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:41Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618551000" lon="7.128803000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:42Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618551000" lon="7.128805000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:46:43Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.600000</hdop>
+</trkpt>
+<trkpt lat="50.618551000" lon="7.128799000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:44Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.130000</hdop>
+</trkpt>
+<trkpt lat="50.618551000" lon="7.128798000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:45Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.130000</hdop>
+</trkpt>
+<trkpt lat="50.618548000" lon="7.128814000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:46Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.130000</hdop>
+</trkpt>
+<trkpt lat="50.618549000" lon="7.128810000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:46:47Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.130000</hdop>
+</trkpt>
+<trkpt lat="50.618551000" lon="7.128810000">
+  <ele>257.910000</ele>
+  <time>2009-11-04T18:46:49Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.550000</hdop>
+</trkpt>
+<trkpt lat="50.618553000" lon="7.128813000">
+  <ele>257.900000</ele>
+  <time>2009-11-04T18:46:50Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.550000</hdop>
+</trkpt>
+<trkpt lat="50.618568000" lon="7.128814000">
+  <ele>257.900000</ele>
+  <time>2009-11-04T18:46:51Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.550000</hdop>
+</trkpt>
+<trkpt lat="50.618575000" lon="7.128814000">
+  <ele>257.900000</ele>
+  <time>2009-11-04T18:46:52Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.550000</hdop>
+</trkpt>
+<trkpt lat="50.618580000" lon="7.128823000">
+  <ele>257.890000</ele>
+  <time>2009-11-04T18:46:53Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.550000</hdop>
+</trkpt>
+<trkpt lat="50.618583000" lon="7.128830000">
+  <ele>257.860000</ele>
+  <time>2009-11-04T18:46:55Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.550000</hdop>
+</trkpt>
+<trkpt lat="50.618582000" lon="7.128832000">
+  <ele>257.840000</ele>
+  <time>2009-11-04T18:46:56Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618575000" lon="7.128833000">
+  <ele>257.830000</ele>
+  <time>2009-11-04T18:46:57Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618565000" lon="7.128839000">
+  <ele>257.830000</ele>
+  <time>2009-11-04T18:46:59Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618563000" lon="7.128848000">
+  <ele>257.830000</ele>
+  <time>2009-11-04T18:47:00Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618558000" lon="7.128853000">
+  <ele>257.830000</ele>
+  <time>2009-11-04T18:47:01Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618556000" lon="7.128857000">
+  <ele>257.840000</ele>
+  <time>2009-11-04T18:47:02Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618563000" lon="7.128860000">
+  <ele>257.840000</ele>
+  <time>2009-11-04T18:47:03Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618561000" lon="7.128862000">
+  <ele>257.840000</ele>
+  <time>2009-11-04T18:47:05Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618560000" lon="7.128864000">
+  <ele>257.840000</ele>
+  <time>2009-11-04T18:47:06Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618561000" lon="7.128866000">
+  <ele>257.840000</ele>
+  <time>2009-11-04T18:47:07Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618563000" lon="7.128862000">
+  <ele>257.840000</ele>
+  <time>2009-11-04T18:47:08Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618565000" lon="7.128862000">
+  <ele>257.840000</ele>
+  <time>2009-11-04T18:47:10Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618566000" lon="7.128862000">
+  <ele>257.830000</ele>
+  <time>2009-11-04T18:47:11Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618568000" lon="7.128860000">
+  <ele>257.820000</ele>
+  <time>2009-11-04T18:47:12Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618570000" lon="7.128856000">
+  <ele>257.820000</ele>
+  <time>2009-11-04T18:47:13Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618573000" lon="7.128853000">
+  <ele>257.820000</ele>
+  <time>2009-11-04T18:47:14Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618575000" lon="7.128851000">
+  <ele>257.820000</ele>
+  <time>2009-11-04T18:47:15Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618578000" lon="7.128849000">
+  <ele>257.820000</ele>
+  <time>2009-11-04T18:47:16Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618581000" lon="7.128843000">
+  <ele>257.810000</ele>
+  <time>2009-11-04T18:47:17Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618579000" lon="7.128846000">
+  <ele>257.810000</ele>
+  <time>2009-11-04T18:47:18Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618579000" lon="7.128844000">
+  <ele>257.800000</ele>
+  <time>2009-11-04T18:47:19Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618578000" lon="7.128844000">
+  <ele>257.800000</ele>
+  <time>2009-11-04T18:47:21Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618579000" lon="7.128842000">
+  <ele>257.810000</ele>
+  <time>2009-11-04T18:47:22Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618576000" lon="7.128846000">
+  <ele>257.820000</ele>
+  <time>2009-11-04T18:47:23Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618574000" lon="7.128849000">
+  <ele>257.840000</ele>
+  <time>2009-11-04T18:47:24Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618573000" lon="7.128848000">
+  <ele>257.860000</ele>
+  <time>2009-11-04T18:47:25Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618577000" lon="7.128845000">
+  <ele>257.880000</ele>
+  <time>2009-11-04T18:47:27Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618580000" lon="7.128843000">
+  <ele>257.870000</ele>
+  <time>2009-11-04T18:47:28Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618587000" lon="7.128843000">
+  <ele>257.880000</ele>
+  <time>2009-11-04T18:47:29Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618602000" lon="7.128838000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:47:30Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618597000" lon="7.128837000">
+  <ele>257.990000</ele>
+  <time>2009-11-04T18:47:32Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618589000" lon="7.128833000">
+  <ele>258.040000</ele>
+  <time>2009-11-04T18:47:33Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618582000" lon="7.128835000">
+  <ele>258.120000</ele>
+  <time>2009-11-04T18:47:34Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618567000" lon="7.128842000">
+  <ele>258.360000</ele>
+  <time>2009-11-04T18:47:35Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618560000" lon="7.128847000">
+  <ele>258.310000</ele>
+  <time>2009-11-04T18:47:37Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618556000" lon="7.128847000">
+  <ele>258.390000</ele>
+  <time>2009-11-04T18:47:38Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618549000" lon="7.128846000">
+  <ele>258.890000</ele>
+  <time>2009-11-04T18:47:39Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618542000" lon="7.128832000">
+  <ele>259.320000</ele>
+  <time>2009-11-04T18:47:40Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618538000" lon="7.128832000">
+  <ele>259.480000</ele>
+  <time>2009-11-04T18:47:41Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618534000" lon="7.128835000">
+  <ele>259.570000</ele>
+  <time>2009-11-04T18:47:42Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618531000" lon="7.128834000">
+  <ele>259.880000</ele>
+  <time>2009-11-04T18:47:43Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618524000" lon="7.128838000">
+  <ele>260.630000</ele>
+  <time>2009-11-04T18:47:44Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618520000" lon="7.128845000">
+  <ele>260.510000</ele>
+  <time>2009-11-04T18:47:45Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618518000" lon="7.128854000">
+  <ele>259.870000</ele>
+  <time>2009-11-04T18:47:46Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618515000" lon="7.128848000">
+  <ele>260.380000</ele>
+  <time>2009-11-04T18:47:48Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618518000" lon="7.128841000">
+  <ele>260.240000</ele>
+  <time>2009-11-04T18:47:49Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618515000" lon="7.128836000">
+  <ele>260.460000</ele>
+  <time>2009-11-04T18:47:50Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618514000" lon="7.128827000">
+  <ele>260.570000</ele>
+  <time>2009-11-04T18:47:51Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618511000" lon="7.128828000">
+  <ele>260.630000</ele>
+  <time>2009-11-04T18:47:52Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618511000" lon="7.128828000">
+  <ele>260.540000</ele>
+  <time>2009-11-04T18:47:54Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618510000" lon="7.128831000">
+  <ele>260.620000</ele>
+  <time>2009-11-04T18:47:55Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618506000" lon="7.128838000">
+  <ele>260.810000</ele>
+  <time>2009-11-04T18:47:56Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.970000</hdop>
+</trkpt>
+<trkpt lat="50.618504000" lon="7.128837000">
+  <ele>260.970000</ele>
+  <time>2009-11-04T18:47:57Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.970000</hdop>
+</trkpt>
+<trkpt lat="50.618502000" lon="7.128838000">
+  <ele>261.310000</ele>
+  <time>2009-11-04T18:47:58Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.810000</hdop>
+</trkpt>
+<trkpt lat="50.618499000" lon="7.128840000">
+  <ele>261.690000</ele>
+  <time>2009-11-04T18:47:59Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.260000</hdop>
+</trkpt>
+<trkpt lat="50.618494000" lon="7.128848000">
+  <ele>261.960000</ele>
+  <time>2009-11-04T18:48:00Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.960000</hdop>
+</trkpt>
+<trkpt lat="50.618491000" lon="7.128855000">
+  <ele>261.950000</ele>
+  <time>2009-11-04T18:48:01Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.960000</hdop>
+</trkpt>
+<trkpt lat="50.618487000" lon="7.128845000">
+  <ele>263.650000</ele>
+  <time>2009-11-04T18:48:02Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.260000</hdop>
+</trkpt>
+<trkpt lat="50.618485000" lon="7.128835000">
+  <ele>264.630000</ele>
+  <time>2009-11-04T18:48:04Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.960000</hdop>
+</trkpt>
+<trkpt lat="50.618484000" lon="7.128827000">
+  <ele>265.490000</ele>
+  <time>2009-11-04T18:48:05Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618485000" lon="7.128820000">
+  <ele>266.070000</ele>
+  <time>2009-11-04T18:48:06Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.850000</hdop>
+</trkpt>
+<trkpt lat="50.618484000" lon="7.128816000">
+  <ele>266.570000</ele>
+  <time>2009-11-04T18:48:08Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.860000</hdop>
+</trkpt>
+<trkpt lat="50.618485000" lon="7.128814000">
+  <ele>266.300000</ele>
+  <time>2009-11-04T18:48:09Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.860000</hdop>
+</trkpt>
+<trkpt lat="50.618486000" lon="7.128810000">
+  <ele>266.560000</ele>
+  <time>2009-11-04T18:48:10Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.860000</hdop>
+</trkpt>
+<trkpt lat="50.618492000" lon="7.128805000">
+  <ele>265.340000</ele>
+  <time>2009-11-04T18:48:11Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.860000</hdop>
+</trkpt>
+<trkpt lat="50.618490000" lon="7.128805000">
+  <ele>265.120000</ele>
+  <time>2009-11-04T18:48:13Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.860000</hdop>
+</trkpt>
+<trkpt lat="50.618487000" lon="7.128807000">
+  <ele>264.750000</ele>
+  <time>2009-11-04T18:48:14Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.860000</hdop>
+</trkpt>
+<trkpt lat="50.618492000" lon="7.128805000">
+  <ele>264.640000</ele>
+  <time>2009-11-04T18:48:15Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.860000</hdop>
+</trkpt>
+<trkpt lat="50.618494000" lon="7.128804000">
+  <ele>264.530000</ele>
+  <time>2009-11-04T18:48:16Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.860000</hdop>
+</trkpt>
+<trkpt lat="50.618499000" lon="7.128801000">
+  <ele>264.240000</ele>
+  <time>2009-11-04T18:48:18Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.618501000" lon="7.128800000">
+  <ele>264.150000</ele>
+  <time>2009-11-04T18:48:19Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.810000</hdop>
+</trkpt>
+<trkpt lat="50.618501000" lon="7.128804000">
+  <ele>264.070000</ele>
+  <time>2009-11-04T18:48:20Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.810000</hdop>
+</trkpt>
+<trkpt lat="50.618502000" lon="7.128805000">
+  <ele>264.000000</ele>
+  <time>2009-11-04T18:48:21Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.260000</hdop>
+</trkpt>
+<trkpt lat="50.618498000" lon="7.128804000">
+  <ele>264.050000</ele>
+  <time>2009-11-04T18:48:22Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.260000</hdop>
+</trkpt>
+<trkpt lat="50.618497000" lon="7.128813000">
+  <ele>263.580000</ele>
+  <time>2009-11-04T18:48:24Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.960000</hdop>
+</trkpt>
+<trkpt lat="50.618497000" lon="7.128813000">
+  <ele>263.580000</ele>
+  <time>2009-11-04T18:48:24Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.960000</hdop>
+</trkpt>
+<trkpt lat="50.618498000" lon="7.128819000">
+  <ele>263.270000</ele>
+  <time>2009-11-04T18:48:26Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.960000</hdop>
+</trkpt>
+<trkpt lat="50.618496000" lon="7.128821000">
+  <ele>263.180000</ele>
+  <time>2009-11-04T18:48:27Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.960000</hdop>
+</trkpt>
+<trkpt lat="50.618498000" lon="7.128822000">
+  <ele>263.200000</ele>
+  <time>2009-11-04T18:48:28Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.870000</hdop>
+</trkpt>
+<trkpt lat="50.618505000" lon="7.128816000">
+  <ele>263.330000</ele>
+  <time>2009-11-04T18:48:30Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.190000</hdop>
+</trkpt>
+<trkpt lat="50.618504000" lon="7.128813000">
+  <ele>263.460000</ele>
+  <time>2009-11-04T18:48:30Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.190000</hdop>
+</trkpt>
+<trkpt lat="50.618506000" lon="7.128810000">
+  <ele>263.510000</ele>
+  <time>2009-11-04T18:48:32Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.190000</hdop>
+</trkpt>
+<trkpt lat="50.618511000" lon="7.128810000">
+  <ele>263.470000</ele>
+  <time>2009-11-04T18:48:33Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.190000</hdop>
+</trkpt>
+<trkpt lat="50.618511000" lon="7.128817000">
+  <ele>263.170000</ele>
+  <time>2009-11-04T18:48:35Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.190000</hdop>
+</trkpt>
+<trkpt lat="50.618510000" lon="7.128815000">
+  <ele>263.200000</ele>
+  <time>2009-11-04T18:48:36Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.190000</hdop>
+</trkpt>
+<trkpt lat="50.618509000" lon="7.128810000">
+  <ele>263.210000</ele>
+  <time>2009-11-04T18:48:37Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618516000" lon="7.128808000">
+  <ele>263.150000</ele>
+  <time>2009-11-04T18:48:38Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618525000" lon="7.128803000">
+  <ele>263.060000</ele>
+  <time>2009-11-04T18:48:39Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618529000" lon="7.128801000">
+  <ele>262.940000</ele>
+  <time>2009-11-04T18:48:41Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618530000" lon="7.128802000">
+  <ele>262.950000</ele>
+  <time>2009-11-04T18:48:42Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618529000" lon="7.128805000">
+  <ele>262.940000</ele>
+  <time>2009-11-04T18:48:43Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618533000" lon="7.128807000">
+  <ele>262.870000</ele>
+  <time>2009-11-04T18:48:44Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618529000" lon="7.128804000">
+  <ele>262.790000</ele>
+  <time>2009-11-04T18:48:45Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618527000" lon="7.128802000">
+  <ele>262.700000</ele>
+  <time>2009-11-04T18:48:46Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>4.100000</hdop>
+</trkpt>
+<trkpt lat="50.618550000" lon="7.128812000">
+  <ele>262.540000</ele>
+  <time>2009-11-04T18:48:48Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618543000" lon="7.128814000">
+  <ele>262.370000</ele>
+  <time>2009-11-04T18:48:49Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618543000" lon="7.128817000">
+  <ele>262.250000</ele>
+  <time>2009-11-04T18:48:50Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.610000</hdop>
+</trkpt>
+<trkpt lat="50.618545000" lon="7.128824000">
+  <ele>262.140000</ele>
+  <time>2009-11-04T18:48:51Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.150000</hdop>
+</trkpt>
+<trkpt lat="50.618547000" lon="7.128827000">
+  <ele>262.140000</ele>
+  <time>2009-11-04T18:48:53Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.150000</hdop>
+</trkpt>
+<trkpt lat="50.618548000" lon="7.128832000">
+  <ele>262.130000</ele>
+  <time>2009-11-04T18:48:54Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>4.430000</hdop>
+</trkpt>
+<trkpt lat="50.618548000" lon="7.128836000">
+  <ele>262.140000</ele>
+  <time>2009-11-04T18:48:55Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>4.430000</hdop>
+</trkpt>
+<trkpt lat="50.618546000" lon="7.128841000">
+  <ele>262.260000</ele>
+  <time>2009-11-04T18:48:56Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>4.430000</hdop>
+</trkpt>
+<trkpt lat="50.618545000" lon="7.128848000">
+  <ele>262.360000</ele>
+  <time>2009-11-04T18:48:57Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.430000</hdop>
+</trkpt>
+<trkpt lat="50.618546000" lon="7.128849000">
+  <ele>262.000000</ele>
+  <time>2009-11-04T18:48:59Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.430000</hdop>
+</trkpt>
+<trkpt lat="50.618545000" lon="7.128855000">
+  <ele>262.080000</ele>
+  <time>2009-11-04T18:49:00Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.440000</hdop>
+</trkpt>
+<trkpt lat="50.618539000" lon="7.128865000">
+  <ele>262.780000</ele>
+  <time>2009-11-04T18:49:01Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.450000</hdop>
+</trkpt>
+<trkpt lat="50.618539000" lon="7.128869000">
+  <ele>262.810000</ele>
+  <time>2009-11-04T18:49:02Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.600000</hdop>
+</trkpt>
+<trkpt lat="50.618540000" lon="7.128872000">
+  <ele>262.620000</ele>
+  <time>2009-11-04T18:49:03Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.610000</hdop>
+</trkpt>
+<trkpt lat="50.618543000" lon="7.128871000">
+  <ele>262.410000</ele>
+  <time>2009-11-04T18:49:04Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.600000</hdop>
+</trkpt>
+<trkpt lat="50.618546000" lon="7.128873000">
+  <ele>261.910000</ele>
+  <time>2009-11-04T18:49:05Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.610000</hdop>
+</trkpt>
+<trkpt lat="50.618555000" lon="7.128864000">
+  <ele>261.140000</ele>
+  <time>2009-11-04T18:49:06Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.610000</hdop>
+</trkpt>
+<trkpt lat="50.618559000" lon="7.128862000">
+  <ele>260.800000</ele>
+  <time>2009-11-04T18:49:07Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.240000</hdop>
+</trkpt>
+<trkpt lat="50.618563000" lon="7.128859000">
+  <ele>260.330000</ele>
+  <time>2009-11-04T18:49:09Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.240000</hdop>
+</trkpt>
+<trkpt lat="50.618565000" lon="7.128859000">
+  <ele>260.090000</ele>
+  <time>2009-11-04T18:49:10Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.240000</hdop>
+</trkpt>
+<trkpt lat="50.618567000" lon="7.128862000">
+  <ele>259.660000</ele>
+  <time>2009-11-04T18:49:11Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.240000</hdop>
+</trkpt>
+<trkpt lat="50.618570000" lon="7.128862000">
+  <ele>258.980000</ele>
+  <time>2009-11-04T18:49:12Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.240000</hdop>
+</trkpt>
+<trkpt lat="50.618580000" lon="7.128859000">
+  <ele>257.420000</ele>
+  <time>2009-11-04T18:49:13Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.240000</hdop>
+</trkpt>
+<trkpt lat="50.618580000" lon="7.128857000">
+  <ele>257.660000</ele>
+  <time>2009-11-04T18:49:14Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.240000</hdop>
+</trkpt>
+<trkpt lat="50.618583000" lon="7.128851000">
+  <ele>257.420000</ele>
+  <time>2009-11-04T18:49:15Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618586000" lon="7.128854000">
+  <ele>256.690000</ele>
+  <time>2009-11-04T18:49:17Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618587000" lon="7.128857000">
+  <ele>256.250000</ele>
+  <time>2009-11-04T18:49:18Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618585000" lon="7.128855000">
+  <ele>257.530000</ele>
+  <time>2009-11-04T18:49:19Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618587000" lon="7.128857000">
+  <ele>257.530000</ele>
+  <time>2009-11-04T18:49:21Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618649000" lon="7.128840000">
+  <ele>257.770000</ele>
+  <time>2009-11-04T18:49:50Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618649000" lon="7.128838000">
+  <ele>257.650000</ele>
+  <time>2009-11-04T18:49:51Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618650000" lon="7.128836000">
+  <ele>257.540000</ele>
+  <time>2009-11-04T18:49:52Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618652000" lon="7.128825000">
+  <ele>257.330000</ele>
+  <time>2009-11-04T18:49:54Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618651000" lon="7.128821000">
+  <ele>257.790000</ele>
+  <time>2009-11-04T18:49:55Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618652000" lon="7.128815000">
+  <ele>257.620000</ele>
+  <time>2009-11-04T18:49:57Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618651000" lon="7.128813000">
+  <ele>257.630000</ele>
+  <time>2009-11-04T18:49:58Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618632000" lon="7.128807000">
+  <ele>257.890000</ele>
+  <time>2009-11-04T18:49:59Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618630000" lon="7.128808000">
+  <ele>258.000000</ele>
+  <time>2009-11-04T18:50:01Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618623000" lon="7.128811000">
+  <ele>258.200000</ele>
+  <time>2009-11-04T18:50:02Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618623000" lon="7.128809000">
+  <ele>258.430000</ele>
+  <time>2009-11-04T18:50:03Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618622000" lon="7.128809000">
+  <ele>258.620000</ele>
+  <time>2009-11-04T18:50:04Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618607000" lon="7.128812000">
+  <ele>259.070000</ele>
+  <time>2009-11-04T18:50:05Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618601000" lon="7.128813000">
+  <ele>259.380000</ele>
+  <time>2009-11-04T18:50:06Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618596000" lon="7.128817000">
+  <ele>259.550000</ele>
+  <time>2009-11-04T18:50:08Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618589000" lon="7.128818000">
+  <ele>259.610000</ele>
+  <time>2009-11-04T18:50:09Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618589000" lon="7.128818000">
+  <ele>259.610000</ele>
+  <time>2009-11-04T18:50:09Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618586000" lon="7.128825000">
+  <ele>259.610000</ele>
+  <time>2009-11-04T18:50:11Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618583000" lon="7.128823000">
+  <ele>259.600000</ele>
+  <time>2009-11-04T18:50:12Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618556000" lon="7.128811000">
+  <ele>259.300000</ele>
+  <time>2009-11-04T18:50:14Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618556000" lon="7.128812000">
+  <ele>259.000000</ele>
+  <time>2009-11-04T18:50:15Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618556000" lon="7.128816000">
+  <ele>258.830000</ele>
+  <time>2009-11-04T18:50:16Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618561000" lon="7.128819000">
+  <ele>258.620000</ele>
+  <time>2009-11-04T18:50:17Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>3.350000</hdop>
+</trkpt>
+<trkpt lat="50.618567000" lon="7.128822000">
+  <ele>258.490000</ele>
+  <time>2009-11-04T18:50:18Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.350000</hdop>
+</trkpt>
+<trkpt lat="50.618560000" lon="7.128826000">
+  <ele>258.250000</ele>
+  <time>2009-11-04T18:50:19Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.350000</hdop>
+</trkpt>
+<trkpt lat="50.618551000" lon="7.128826000">
+  <ele>258.260000</ele>
+  <time>2009-11-04T18:50:21Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618568000" lon="7.128834000">
+  <ele>258.140000</ele>
+  <time>2009-11-04T18:50:22Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618567000" lon="7.128838000">
+  <ele>258.130000</ele>
+  <time>2009-11-04T18:50:23Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618569000" lon="7.128843000">
+  <ele>258.080000</ele>
+  <time>2009-11-04T18:50:24Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618569000" lon="7.128844000">
+  <ele>258.050000</ele>
+  <time>2009-11-04T18:50:25Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618571000" lon="7.128848000">
+  <ele>258.080000</ele>
+  <time>2009-11-04T18:50:26Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618565000" lon="7.128854000">
+  <ele>258.080000</ele>
+  <time>2009-11-04T18:50:27Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618567000" lon="7.128860000">
+  <ele>258.090000</ele>
+  <time>2009-11-04T18:50:28Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618574000" lon="7.128868000">
+  <ele>258.100000</ele>
+  <time>2009-11-04T18:50:29Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618571000" lon="7.128873000">
+  <ele>258.090000</ele>
+  <time>2009-11-04T18:50:30Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>3.360000</hdop>
+</trkpt>
+<trkpt lat="50.618575000" lon="7.128876000">
+  <ele>258.090000</ele>
+  <time>2009-11-04T18:50:31Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>3.360000</hdop>
+</trkpt>
+<trkpt lat="50.618574000" lon="7.128885000">
+  <ele>258.040000</ele>
+  <time>2009-11-04T18:50:32Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>3.360000</hdop>
+</trkpt>
+<trkpt lat="50.618583000" lon="7.128889000">
+  <ele>258.050000</ele>
+  <time>2009-11-04T18:50:33Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618590000" lon="7.128887000">
+  <ele>258.110000</ele>
+  <time>2009-11-04T18:50:34Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618586000" lon="7.128873000">
+  <ele>258.230000</ele>
+  <time>2009-11-04T18:50:36Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618596000" lon="7.128869000">
+  <ele>258.300000</ele>
+  <time>2009-11-04T18:50:37Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618616000" lon="7.128873000">
+  <ele>258.270000</ele>
+  <time>2009-11-04T18:50:38Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.960000</hdop>
+</trkpt>
+<trkpt lat="50.618589000" lon="7.128874000">
+  <ele>258.370000</ele>
+  <time>2009-11-04T18:50:40Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.260000</hdop>
+</trkpt>
+<trkpt lat="50.618558000" lon="7.128866000">
+  <ele>258.500000</ele>
+  <time>2009-11-04T18:50:41Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.260000</hdop>
+</trkpt>
+<trkpt lat="50.618566000" lon="7.128866000">
+  <ele>258.530000</ele>
+  <time>2009-11-04T18:50:42Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.260000</hdop>
+</trkpt>
+<trkpt lat="50.618571000" lon="7.128865000">
+  <ele>258.470000</ele>
+  <time>2009-11-04T18:50:43Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.260000</hdop>
+</trkpt>
+<trkpt lat="50.618574000" lon="7.128870000">
+  <ele>258.390000</ele>
+  <time>2009-11-04T18:50:44Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.260000</hdop>
+</trkpt>
+<trkpt lat="50.618577000" lon="7.128875000">
+  <ele>258.330000</ele>
+  <time>2009-11-04T18:50:45Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618578000" lon="7.128889000">
+  <ele>258.290000</ele>
+  <time>2009-11-04T18:50:46Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618578000" lon="7.128899000">
+  <ele>258.290000</ele>
+  <time>2009-11-04T18:50:47Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618576000" lon="7.128899000">
+  <ele>258.270000</ele>
+  <time>2009-11-04T18:50:48Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618594000" lon="7.128912000">
+  <ele>258.120000</ele>
+  <time>2009-11-04T18:50:50Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618596000" lon="7.128914000">
+  <ele>257.800000</ele>
+  <time>2009-11-04T18:50:51Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618609000" lon="7.128919000">
+  <ele>257.470000</ele>
+  <time>2009-11-04T18:50:52Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618598000" lon="7.128917000">
+  <ele>257.250000</ele>
+  <time>2009-11-04T18:50:53Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618559000" lon="7.128916000">
+  <ele>257.220000</ele>
+  <time>2009-11-04T18:50:55Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618540000" lon="7.128917000">
+  <ele>257.180000</ele>
+  <time>2009-11-04T18:50:56Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618527000" lon="7.128919000">
+  <ele>257.140000</ele>
+  <time>2009-11-04T18:50:57Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618520000" lon="7.128917000">
+  <ele>257.130000</ele>
+  <time>2009-11-04T18:50:58Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.870000</hdop>
+</trkpt>
+<trkpt lat="50.618518000" lon="7.128921000">
+  <ele>257.130000</ele>
+  <time>2009-11-04T18:50:59Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.870000</hdop>
+</trkpt>
+<trkpt lat="50.618510000" lon="7.128924000">
+  <ele>257.140000</ele>
+  <time>2009-11-04T18:51:00Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.870000</hdop>
+</trkpt>
+<trkpt lat="50.618512000" lon="7.128923000">
+  <ele>257.180000</ele>
+  <time>2009-11-04T18:51:01Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.870000</hdop>
+</trkpt>
+<trkpt lat="50.618507000" lon="7.128914000">
+  <ele>257.180000</ele>
+  <time>2009-11-04T18:51:02Z</time>
+  <name>gypsy</name>
+  <sat>9</sat>
+  <hdop>0.870000</hdop>
+</trkpt>
+<trkpt lat="50.618510000" lon="7.128911000">
+  <ele>257.280000</ele>
+  <time>2009-11-04T18:51:03Z</time>
+  <name>gypsy</name>
+  <sat>9</sat>
+  <hdop>0.870000</hdop>
+</trkpt>
+<trkpt lat="50.618517000" lon="7.128909000">
+  <ele>257.320000</ele>
+  <time>2009-11-04T18:51:04Z</time>
+  <name>gypsy</name>
+  <sat>9</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618524000" lon="7.128906000">
+  <ele>257.380000</ele>
+  <time>2009-11-04T18:51:06Z</time>
+  <name>gypsy</name>
+  <sat>9</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618528000" lon="7.128910000">
+  <ele>257.460000</ele>
+  <time>2009-11-04T18:51:07Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618535000" lon="7.128909000">
+  <ele>257.530000</ele>
+  <time>2009-11-04T18:51:08Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618576000" lon="7.128909000">
+  <ele>257.660000</ele>
+  <time>2009-11-04T18:51:09Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618638000" lon="7.128921000">
+  <ele>257.800000</ele>
+  <time>2009-11-04T18:51:10Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618678000" lon="7.128927000">
+  <ele>257.850000</ele>
+  <time>2009-11-04T18:51:11Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.640000</hdop>
+</trkpt>
+<trkpt lat="50.618726000" lon="7.128931000">
+  <ele>257.880000</ele>
+  <time>2009-11-04T18:51:12Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.640000</hdop>
+</trkpt>
+<trkpt lat="50.618747000" lon="7.128935000">
+  <ele>257.930000</ele>
+  <time>2009-11-04T18:51:13Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.640000</hdop>
+</trkpt>
+<trkpt lat="50.618758000" lon="7.128942000">
+  <ele>257.970000</ele>
+  <time>2009-11-04T18:51:15Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.640000</hdop>
+</trkpt>
+<trkpt lat="50.619097000" lon="7.129010000">
+  <ele>257.670000</ele>
+  <time>2009-11-04T18:51:24Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.640000</hdop>
+</trkpt>
+<trkpt lat="50.619109000" lon="7.129009000">
+  <ele>257.640000</ele>
+  <time>2009-11-04T18:51:25Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.640000</hdop>
+</trkpt>
+<trkpt lat="50.619108000" lon="7.129002000">
+  <ele>257.550000</ele>
+  <time>2009-11-04T18:51:26Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.640000</hdop>
+</trkpt>
+<trkpt lat="50.619109000" lon="7.129003000">
+  <ele>257.540000</ele>
+  <time>2009-11-04T18:51:28Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.640000</hdop>
+</trkpt>
+<trkpt lat="50.619117000" lon="7.129007000">
+  <ele>257.530000</ele>
+  <time>2009-11-04T18:51:29Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.640000</hdop>
+</trkpt>
+<trkpt lat="50.619130000" lon="7.129006000">
+  <ele>257.570000</ele>
+  <time>2009-11-04T18:51:30Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>5.990000</hdop>
+</trkpt>
+<trkpt lat="50.619150000" lon="7.129004000">
+  <ele>257.600000</ele>
+  <time>2009-11-04T18:51:31Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>5.990000</hdop>
+</trkpt>
+<trkpt lat="50.619180000" lon="7.129003000">
+  <ele>257.630000</ele>
+  <time>2009-11-04T18:51:32Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>5.990000</hdop>
+</trkpt>
+<trkpt lat="50.619206000" lon="7.129005000">
+  <ele>257.640000</ele>
+  <time>2009-11-04T18:51:33Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>5.980000</hdop>
+</trkpt>
+<trkpt lat="50.619232000" lon="7.129000000">
+  <ele>257.650000</ele>
+  <time>2009-11-04T18:51:34Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>5.980000</hdop>
+</trkpt>
+<trkpt lat="50.618841000" lon="7.128966000">
+  <ele>257.660000</ele>
+  <time>2009-11-04T18:51:36Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.618817000" lon="7.128955000">
+  <ele>257.660000</ele>
+  <time>2009-11-04T18:51:37Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618896000" lon="7.128950000">
+  <ele>257.640000</ele>
+  <time>2009-11-04T18:51:38Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.618993000" lon="7.128945000">
+  <ele>257.620000</ele>
+  <time>2009-11-04T18:51:39Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.619009000" lon="7.128952000">
+  <ele>257.650000</ele>
+  <time>2009-11-04T18:51:40Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.619133000" lon="7.128962000">
+  <ele>257.700000</ele>
+  <time>2009-11-04T18:51:41Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>5.960000</hdop>
+</trkpt>
+<trkpt lat="50.619133000" lon="7.128962000">
+  <ele>257.700000</ele>
+  <time>2009-11-04T18:51:42Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>5.950000</hdop>
+</trkpt>
+<trkpt lat="50.619248000" lon="7.128978000">
+  <ele>257.760000</ele>
+  <time>2009-11-04T18:51:44Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>5.950000</hdop>
+</trkpt>
+<trkpt lat="50.619305000" lon="7.128984000">
+  <ele>257.780000</ele>
+  <time>2009-11-04T18:51:45Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>5.950000</hdop>
+</trkpt>
+<trkpt lat="50.619420000" lon="7.128993000">
+  <ele>257.780000</ele>
+  <time>2009-11-04T18:51:47Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>6.810000</hdop>
+</trkpt>
+<trkpt lat="50.619474000" lon="7.128998000">
+  <ele>257.770000</ele>
+  <time>2009-11-04T18:51:48Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.810000</hdop>
+</trkpt>
+<trkpt lat="50.619524000" lon="7.129001000">
+  <ele>257.800000</ele>
+  <time>2009-11-04T18:51:49Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.800000</hdop>
+</trkpt>
+<trkpt lat="50.619573000" lon="7.129003000">
+  <ele>257.830000</ele>
+  <time>2009-11-04T18:51:50Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.800000</hdop>
+</trkpt>
+<trkpt lat="50.619656000" lon="7.129007000">
+  <ele>257.870000</ele>
+  <time>2009-11-04T18:51:51Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.790000</hdop>
+</trkpt>
+<trkpt lat="50.619690000" lon="7.129007000">
+  <ele>257.880000</ele>
+  <time>2009-11-04T18:51:53Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.790000</hdop>
+</trkpt>
+<trkpt lat="50.619723000" lon="7.129011000">
+  <ele>257.880000</ele>
+  <time>2009-11-04T18:51:54Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.780000</hdop>
+</trkpt>
+<trkpt lat="50.619751000" lon="7.129017000">
+  <ele>257.890000</ele>
+  <time>2009-11-04T18:51:55Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.780000</hdop>
+</trkpt>
+<trkpt lat="50.619757000" lon="7.129006000">
+  <ele>257.920000</ele>
+  <time>2009-11-04T18:51:56Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.780000</hdop>
+</trkpt>
+<trkpt lat="50.618848000" lon="7.128926000">
+  <ele>257.630000</ele>
+  <time>2009-11-04T18:52:00Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>3.690000</hdop>
+</trkpt>
+<trkpt lat="50.618778000" lon="7.128908000">
+  <ele>257.610000</ele>
+  <time>2009-11-04T18:52:02Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>6.750000</hdop>
+</trkpt>
+<trkpt lat="50.618770000" lon="7.128903000">
+  <ele>257.590000</ele>
+  <time>2009-11-04T18:52:03Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.750000</hdop>
+</trkpt>
+<trkpt lat="50.618763000" lon="7.128900000">
+  <ele>257.570000</ele>
+  <time>2009-11-04T18:52:04Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.750000</hdop>
+</trkpt>
+<trkpt lat="50.618753000" lon="7.128905000">
+  <ele>257.530000</ele>
+  <time>2009-11-04T18:52:05Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.740000</hdop>
+</trkpt>
+<trkpt lat="50.618743000" lon="7.128903000">
+  <ele>257.520000</ele>
+  <time>2009-11-04T18:52:06Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.740000</hdop>
+</trkpt>
+<trkpt lat="50.618734000" lon="7.128895000">
+  <ele>257.520000</ele>
+  <time>2009-11-04T18:52:07Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.740000</hdop>
+</trkpt>
+<trkpt lat="50.618718000" lon="7.128895000">
+  <ele>257.490000</ele>
+  <time>2009-11-04T18:52:08Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>5.330000</hdop>
+</trkpt>
+<trkpt lat="50.618697000" lon="7.128891000">
+  <ele>257.470000</ele>
+  <time>2009-11-04T18:52:09Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>5.330000</hdop>
+</trkpt>
+<trkpt lat="50.618688000" lon="7.128909000">
+  <ele>257.360000</ele>
+  <time>2009-11-04T18:52:10Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.630000</hdop>
+</trkpt>
+<trkpt lat="50.618699000" lon="7.128922000">
+  <ele>257.190000</ele>
+  <time>2009-11-04T18:52:12Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.630000</hdop>
+</trkpt>
+<trkpt lat="50.618684000" lon="7.128930000">
+  <ele>257.180000</ele>
+  <time>2009-11-04T18:52:13Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.630000</hdop>
+</trkpt>
+<trkpt lat="50.618666000" lon="7.128929000">
+  <ele>257.160000</ele>
+  <time>2009-11-04T18:52:14Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618644000" lon="7.128941000">
+  <ele>257.060000</ele>
+  <time>2009-11-04T18:52:16Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618626000" lon="7.128940000">
+  <ele>257.020000</ele>
+  <time>2009-11-04T18:52:17Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618627000" lon="7.128942000">
+  <ele>256.980000</ele>
+  <time>2009-11-04T18:52:18Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618621000" lon="7.128936000">
+  <ele>256.920000</ele>
+  <time>2009-11-04T18:52:19Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618620000" lon="7.128942000">
+  <ele>256.860000</ele>
+  <time>2009-11-04T18:52:20Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.240000</hdop>
+</trkpt>
+<trkpt lat="50.618614000" lon="7.128943000">
+  <ele>256.820000</ele>
+  <time>2009-11-04T18:52:21Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.910000</hdop>
+</trkpt>
+<trkpt lat="50.618612000" lon="7.128934000">
+  <ele>256.780000</ele>
+  <time>2009-11-04T18:52:23Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618611000" lon="7.128935000">
+  <ele>256.700000</ele>
+  <time>2009-11-04T18:52:24Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618617000" lon="7.128933000">
+  <ele>256.620000</ele>
+  <time>2009-11-04T18:52:25Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618618000" lon="7.128932000">
+  <ele>256.560000</ele>
+  <time>2009-11-04T18:52:26Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618619000" lon="7.128928000">
+  <ele>256.480000</ele>
+  <time>2009-11-04T18:52:27Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618616000" lon="7.128921000">
+  <ele>256.370000</ele>
+  <time>2009-11-04T18:52:28Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618616000" lon="7.128914000">
+  <ele>256.350000</ele>
+  <time>2009-11-04T18:52:29Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.160000</hdop>
+</trkpt>
+<trkpt lat="50.618620000" lon="7.128906000">
+  <ele>256.360000</ele>
+  <time>2009-11-04T18:52:30Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.160000</hdop>
+</trkpt>
+<trkpt lat="50.618607000" lon="7.128889000">
+  <ele>256.310000</ele>
+  <time>2009-11-04T18:52:31Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.160000</hdop>
+</trkpt>
+<trkpt lat="50.618606000" lon="7.128877000">
+  <ele>256.250000</ele>
+  <time>2009-11-04T18:52:32Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.160000</hdop>
+</trkpt>
+<trkpt lat="50.618593000" lon="7.128875000">
+  <ele>256.220000</ele>
+  <time>2009-11-04T18:52:33Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.780000</hdop>
+</trkpt>
+<trkpt lat="50.618578000" lon="7.128868000">
+  <ele>256.200000</ele>
+  <time>2009-11-04T18:52:34Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.780000</hdop>
+</trkpt>
+<trkpt lat="50.618569000" lon="7.128861000">
+  <ele>256.190000</ele>
+  <time>2009-11-04T18:52:36Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.780000</hdop>
+</trkpt>
+<trkpt lat="50.618563000" lon="7.128857000">
+  <ele>256.190000</ele>
+  <time>2009-11-04T18:52:37Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.780000</hdop>
+</trkpt>
+<trkpt lat="50.618557000" lon="7.128849000">
+  <ele>256.190000</ele>
+  <time>2009-11-04T18:52:38Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.780000</hdop>
+</trkpt>
+<trkpt lat="50.618553000" lon="7.128857000">
+  <ele>256.130000</ele>
+  <time>2009-11-04T18:52:39Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618554000" lon="7.128856000">
+  <ele>256.130000</ele>
+  <time>2009-11-04T18:52:40Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618553000" lon="7.128860000">
+  <ele>256.160000</ele>
+  <time>2009-11-04T18:52:41Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618553000" lon="7.128861000">
+  <ele>256.210000</ele>
+  <time>2009-11-04T18:52:43Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618550000" lon="7.128860000">
+  <ele>256.300000</ele>
+  <time>2009-11-04T18:52:44Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618547000" lon="7.128861000">
+  <ele>256.360000</ele>
+  <time>2009-11-04T18:52:45Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618542000" lon="7.128864000">
+  <ele>256.430000</ele>
+  <time>2009-11-04T18:52:47Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618540000" lon="7.128871000">
+  <ele>256.380000</ele>
+  <time>2009-11-04T18:52:48Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618538000" lon="7.128876000">
+  <ele>256.330000</ele>
+  <time>2009-11-04T18:52:49Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618538000" lon="7.128877000">
+  <ele>256.270000</ele>
+  <time>2009-11-04T18:52:50Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618539000" lon="7.128881000">
+  <ele>256.230000</ele>
+  <time>2009-11-04T18:52:51Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618539000" lon="7.128887000">
+  <ele>256.180000</ele>
+  <time>2009-11-04T18:52:52Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618537000" lon="7.128891000">
+  <ele>256.150000</ele>
+  <time>2009-11-04T18:52:53Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618531000" lon="7.128881000">
+  <ele>256.100000</ele>
+  <time>2009-11-04T18:52:54Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618533000" lon="7.128882000">
+  <ele>256.070000</ele>
+  <time>2009-11-04T18:52:55Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618532000" lon="7.128886000">
+  <ele>256.030000</ele>
+  <time>2009-11-04T18:52:56Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618518000" lon="7.128888000">
+  <ele>255.980000</ele>
+  <time>2009-11-04T18:52:57Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618528000" lon="7.128905000">
+  <ele>255.940000</ele>
+  <time>2009-11-04T18:52:59Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618526000" lon="7.128906000">
+  <ele>255.850000</ele>
+  <time>2009-11-04T18:53:00Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618528000" lon="7.128912000">
+  <ele>255.750000</ele>
+  <time>2009-11-04T18:53:01Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618525000" lon="7.128919000">
+  <ele>255.690000</ele>
+  <time>2009-11-04T18:53:02Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.830000</hdop>
+</trkpt>
+<trkpt lat="50.618519000" lon="7.128919000">
+  <ele>255.600000</ele>
+  <time>2009-11-04T18:53:03Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618511000" lon="7.128915000">
+  <ele>255.480000</ele>
+  <time>2009-11-04T18:53:04Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618510000" lon="7.128910000">
+  <ele>255.460000</ele>
+  <time>2009-11-04T18:53:05Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618501000" lon="7.128897000">
+  <ele>255.400000</ele>
+  <time>2009-11-04T18:53:07Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618497000" lon="7.128895000">
+  <ele>255.450000</ele>
+  <time>2009-11-04T18:53:08Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618489000" lon="7.128889000">
+  <ele>255.490000</ele>
+  <time>2009-11-04T18:53:09Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618487000" lon="7.128884000">
+  <ele>255.510000</ele>
+  <time>2009-11-04T18:53:10Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618467000" lon="7.128880000">
+  <ele>255.490000</ele>
+  <time>2009-11-04T18:53:11Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618450000" lon="7.128877000">
+  <ele>255.340000</ele>
+  <time>2009-11-04T18:53:13Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618451000" lon="7.128868000">
+  <ele>255.250000</ele>
+  <time>2009-11-04T18:53:13Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618449000" lon="7.128872000">
+  <ele>255.170000</ele>
+  <time>2009-11-04T18:53:15Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618447000" lon="7.128874000">
+  <ele>255.080000</ele>
+  <time>2009-11-04T18:53:16Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618447000" lon="7.128873000">
+  <ele>255.000000</ele>
+  <time>2009-11-04T18:53:17Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618446000" lon="7.128869000">
+  <ele>254.900000</ele>
+  <time>2009-11-04T18:53:18Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618446000" lon="7.128876000">
+  <ele>254.720000</ele>
+  <time>2009-11-04T18:53:19Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618447000" lon="7.128882000">
+  <ele>254.640000</ele>
+  <time>2009-11-04T18:53:21Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618449000" lon="7.128888000">
+  <ele>254.550000</ele>
+  <time>2009-11-04T18:53:22Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618448000" lon="7.128893000">
+  <ele>254.460000</ele>
+  <time>2009-11-04T18:53:23Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618447000" lon="7.128892000">
+  <ele>254.370000</ele>
+  <time>2009-11-04T18:53:24Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618454000" lon="7.128894000">
+  <ele>254.160000</ele>
+  <time>2009-11-04T18:53:25Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618457000" lon="7.128895000">
+  <ele>254.050000</ele>
+  <time>2009-11-04T18:53:26Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618458000" lon="7.128891000">
+  <ele>253.930000</ele>
+  <time>2009-11-04T18:53:28Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.580000</hdop>
+</trkpt>
+<trkpt lat="50.618462000" lon="7.128887000">
+  <ele>253.770000</ele>
+  <time>2009-11-04T18:53:29Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>4.080000</hdop>
+</trkpt>
+<trkpt lat="50.619088000" lon="7.128916000">
+  <ele>253.530000</ele>
+  <time>2009-11-04T18:53:30Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.810000</hdop>
+</trkpt>
+<trkpt lat="50.619721000" lon="7.129127000">
+  <ele>253.240000</ele>
+  <time>2009-11-04T18:53:31Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.810000</hdop>
+</trkpt>
+<trkpt lat="50.619909000" lon="7.129125000">
+  <ele>252.910000</ele>
+  <time>2009-11-04T18:53:32Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.810000</hdop>
+</trkpt>
+<trkpt lat="50.620099000" lon="7.129122000">
+  <ele>252.510000</ele>
+  <time>2009-11-04T18:53:33Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.080000</hdop>
+</trkpt>
+<trkpt lat="50.623270000" lon="7.129554000">
+  <ele>243.310000</ele>
+  <time>2009-11-04T18:53:44Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>6.400000</hdop>
+</trkpt>
+<trkpt lat="50.623642000" lon="7.129592000">
+  <ele>242.980000</ele>
+  <time>2009-11-04T18:53:46Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>6.390000</hdop>
+</trkpt>
+<trkpt lat="50.623802000" lon="7.129598000">
+  <ele>242.820000</ele>
+  <time>2009-11-04T18:53:47Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.390000</hdop>
+</trkpt>
+<trkpt lat="50.623968000" lon="7.129612000">
+  <ele>242.710000</ele>
+  <time>2009-11-04T18:53:48Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.390000</hdop>
+</trkpt>
+<trkpt lat="50.624100000" lon="7.129610000">
+  <ele>242.620000</ele>
+  <time>2009-11-04T18:53:49Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>6.380000</hdop>
+</trkpt>
+<trkpt lat="50.633968000" lon="7.129266000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:54:18Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>12.970000</hdop>
+</trkpt>
+<trkpt lat="50.633941000" lon="7.129286000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:54:19Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>12.960000</hdop>
+</trkpt>
+<trkpt lat="50.633922000" lon="7.129283000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:54:20Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>21.740000</hdop>
+</trkpt>
+<trkpt lat="50.618825000" lon="7.128946000">
+  <ele>253.070000</ele>
+  <time>2009-11-04T18:54:28Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618851000" lon="7.128952000">
+  <ele>252.750000</ele>
+  <time>2009-11-04T18:54:29Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618824000" lon="7.128954000">
+  <ele>252.340000</ele>
+  <time>2009-11-04T18:54:30Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618806000" lon="7.128950000">
+  <ele>252.030000</ele>
+  <time>2009-11-04T18:54:31Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618799000" lon="7.128944000">
+  <ele>251.980000</ele>
+  <time>2009-11-04T18:54:32Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618784000" lon="7.128940000">
+  <ele>251.870000</ele>
+  <time>2009-11-04T18:54:34Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618775000" lon="7.128939000">
+  <ele>251.940000</ele>
+  <time>2009-11-04T18:54:35Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618763000" lon="7.128935000">
+  <ele>252.300000</ele>
+  <time>2009-11-04T18:54:36Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618749000" lon="7.128932000">
+  <ele>252.730000</ele>
+  <time>2009-11-04T18:54:37Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618743000" lon="7.128928000">
+  <ele>253.200000</ele>
+  <time>2009-11-04T18:54:38Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618730000" lon="7.128927000">
+  <ele>253.940000</ele>
+  <time>2009-11-04T18:54:40Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618716000" lon="7.128920000">
+  <ele>254.090000</ele>
+  <time>2009-11-04T18:54:41Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618715000" lon="7.128920000">
+  <ele>254.130000</ele>
+  <time>2009-11-04T18:54:42Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618713000" lon="7.128923000">
+  <ele>254.010000</ele>
+  <time>2009-11-04T18:54:43Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618712000" lon="7.128923000">
+  <ele>253.390000</ele>
+  <time>2009-11-04T18:54:44Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618712000" lon="7.128924000">
+  <ele>253.380000</ele>
+  <time>2009-11-04T18:54:45Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618718000" lon="7.128927000">
+  <ele>253.150000</ele>
+  <time>2009-11-04T18:54:46Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618721000" lon="7.128926000">
+  <ele>253.040000</ele>
+  <time>2009-11-04T18:54:47Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618723000" lon="7.128928000">
+  <ele>252.900000</ele>
+  <time>2009-11-04T18:54:48Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618739000" lon="7.128932000">
+  <ele>253.030000</ele>
+  <time>2009-11-04T18:54:49Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.030000</hdop>
+</trkpt>
+<trkpt lat="50.618758000" lon="7.128934000">
+  <ele>252.970000</ele>
+  <time>2009-11-04T18:54:51Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.040000</hdop>
+</trkpt>
+<trkpt lat="50.618761000" lon="7.128934000">
+  <ele>252.870000</ele>
+  <time>2009-11-04T18:54:52Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>4.030000</hdop>
+</trkpt>
+<trkpt lat="50.618769000" lon="7.128935000">
+  <ele>252.790000</ele>
+  <time>2009-11-04T18:54:53Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.030000</hdop>
+</trkpt>
+<trkpt lat="50.618778000" lon="7.128936000">
+  <ele>252.710000</ele>
+  <time>2009-11-04T18:54:54Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.030000</hdop>
+</trkpt>
+<trkpt lat="50.618786000" lon="7.128937000">
+  <ele>252.630000</ele>
+  <time>2009-11-04T18:54:55Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.030000</hdop>
+</trkpt>
+<trkpt lat="50.618761000" lon="7.128932000">
+  <ele>252.810000</ele>
+  <time>2009-11-04T18:54:56Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.860000</hdop>
+</trkpt>
+<trkpt lat="50.618733000" lon="7.128927000">
+  <ele>252.970000</ele>
+  <time>2009-11-04T18:54:57Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.860000</hdop>
+</trkpt>
+<trkpt lat="50.618731000" lon="7.128927000">
+  <ele>252.800000</ele>
+  <time>2009-11-04T18:54:58Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.860000</hdop>
+</trkpt>
+<trkpt lat="50.618715000" lon="7.128923000">
+  <ele>252.930000</ele>
+  <time>2009-11-04T18:55:00Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.860000</hdop>
+</trkpt>
+<trkpt lat="50.618714000" lon="7.128921000">
+  <ele>253.040000</ele>
+  <time>2009-11-04T18:55:01Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618719000" lon="7.128921000">
+  <ele>253.100000</ele>
+  <time>2009-11-04T18:55:02Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618640000" lon="7.128902000">
+  <ele>254.400000</ele>
+  <time>2009-11-04T18:55:03Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618596000" lon="7.128893000">
+  <ele>255.200000</ele>
+  <time>2009-11-04T18:55:04Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618600000" lon="7.128890000">
+  <ele>255.430000</ele>
+  <time>2009-11-04T18:55:05Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618619000" lon="7.128886000">
+  <ele>255.830000</ele>
+  <time>2009-11-04T18:55:07Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618623000" lon="7.128883000">
+  <ele>255.940000</ele>
+  <time>2009-11-04T18:55:08Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618624000" lon="7.128882000">
+  <ele>256.010000</ele>
+  <time>2009-11-04T18:55:09Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618632000" lon="7.128876000">
+  <ele>256.010000</ele>
+  <time>2009-11-04T18:55:11Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618625000" lon="7.128874000">
+  <ele>256.000000</ele>
+  <time>2009-11-04T18:55:12Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618624000" lon="7.128871000">
+  <ele>256.020000</ele>
+  <time>2009-11-04T18:55:13Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618628000" lon="7.128869000">
+  <ele>256.030000</ele>
+  <time>2009-11-04T18:55:14Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618627000" lon="7.128865000">
+  <ele>256.010000</ele>
+  <time>2009-11-04T18:55:15Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618629000" lon="7.128864000">
+  <ele>255.970000</ele>
+  <time>2009-11-04T18:55:16Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618635000" lon="7.128863000">
+  <ele>255.920000</ele>
+  <time>2009-11-04T18:55:17Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618628000" lon="7.128859000">
+  <ele>255.880000</ele>
+  <time>2009-11-04T18:55:19Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618626000" lon="7.128858000">
+  <ele>255.950000</ele>
+  <time>2009-11-04T18:55:20Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.000000</hdop>
+</trkpt>
+<trkpt lat="50.618615000" lon="7.128855000">
+  <ele>256.040000</ele>
+  <time>2009-11-04T18:55:21Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.020000</hdop>
+</trkpt>
+<trkpt lat="50.618610000" lon="7.128854000">
+  <ele>256.120000</ele>
+  <time>2009-11-04T18:55:22Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.020000</hdop>
+</trkpt>
+<trkpt lat="50.618603000" lon="7.128852000">
+  <ele>256.180000</ele>
+  <time>2009-11-04T18:55:23Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.020000</hdop>
+</trkpt>
+<trkpt lat="50.618598000" lon="7.128853000">
+  <ele>256.250000</ele>
+  <time>2009-11-04T18:55:24Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.020000</hdop>
+</trkpt>
+<trkpt lat="50.618596000" lon="7.128850000">
+  <ele>256.420000</ele>
+  <time>2009-11-04T18:55:26Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618598000" lon="7.128846000">
+  <ele>256.560000</ele>
+  <time>2009-11-04T18:55:27Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618597000" lon="7.128842000">
+  <ele>256.710000</ele>
+  <time>2009-11-04T18:55:28Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618597000" lon="7.128843000">
+  <ele>256.850000</ele>
+  <time>2009-11-04T18:55:29Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618598000" lon="7.128839000">
+  <ele>257.100000</ele>
+  <time>2009-11-04T18:55:30Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618609000" lon="7.128846000">
+  <ele>257.260000</ele>
+  <time>2009-11-04T18:55:31Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.090000</hdop>
+</trkpt>
+<trkpt lat="50.618613000" lon="7.128850000">
+  <ele>257.450000</ele>
+  <time>2009-11-04T18:55:33Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.030000</hdop>
+</trkpt>
+<trkpt lat="50.618618000" lon="7.128855000">
+  <ele>257.600000</ele>
+  <time>2009-11-04T18:55:34Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.030000</hdop>
+</trkpt>
+<trkpt lat="50.618617000" lon="7.128854000">
+  <ele>257.730000</ele>
+  <time>2009-11-04T18:55:35Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.030000</hdop>
+</trkpt>
+<trkpt lat="50.618607000" lon="7.128856000">
+  <ele>257.710000</ele>
+  <time>2009-11-04T18:55:36Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>0.890000</hdop>
+</trkpt>
+<trkpt lat="50.618607000" lon="7.128868000">
+  <ele>257.560000</ele>
+  <time>2009-11-04T18:55:37Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618604000" lon="7.128870000">
+  <ele>257.410000</ele>
+  <time>2009-11-04T18:55:39Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618604000" lon="7.128870000">
+  <ele>257.380000</ele>
+  <time>2009-11-04T18:55:40Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618606000" lon="7.128867000">
+  <ele>257.330000</ele>
+  <time>2009-11-04T18:55:41Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618610000" lon="7.128863000">
+  <ele>257.280000</ele>
+  <time>2009-11-04T18:55:42Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618612000" lon="7.128856000">
+  <ele>257.180000</ele>
+  <time>2009-11-04T18:55:43Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618613000" lon="7.128856000">
+  <ele>257.020000</ele>
+  <time>2009-11-04T18:55:44Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618617000" lon="7.128850000">
+  <ele>257.030000</ele>
+  <time>2009-11-04T18:55:45Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618617000" lon="7.128848000">
+  <ele>257.020000</ele>
+  <time>2009-11-04T18:55:46Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618620000" lon="7.128844000">
+  <ele>257.090000</ele>
+  <time>2009-11-04T18:55:48Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>3.140000</hdop>
+</trkpt>
+<trkpt lat="50.618626000" lon="7.128847000">
+  <ele>257.140000</ele>
+  <time>2009-11-04T18:55:49Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>3.140000</hdop>
+</trkpt>
+<trkpt lat="50.618628000" lon="7.128848000">
+  <ele>257.150000</ele>
+  <time>2009-11-04T18:55:50Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>3.130000</hdop>
+</trkpt>
+<trkpt lat="50.618626000" lon="7.128846000">
+  <ele>257.140000</ele>
+  <time>2009-11-04T18:55:51Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618627000" lon="7.128851000">
+  <ele>257.040000</ele>
+  <time>2009-11-04T18:55:52Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618641000" lon="7.128850000">
+  <ele>256.930000</ele>
+  <time>2009-11-04T18:55:53Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618642000" lon="7.128870000">
+  <ele>256.670000</ele>
+  <time>2009-11-04T18:55:54Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.350000</hdop>
+</trkpt>
+<trkpt lat="50.618654000" lon="7.128887000">
+  <ele>256.440000</ele>
+  <time>2009-11-04T18:55:55Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618664000" lon="7.128910000">
+  <ele>256.100000</ele>
+  <time>2009-11-04T18:55:57Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618664000" lon="7.128918000">
+  <ele>256.020000</ele>
+  <time>2009-11-04T18:55:58Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618655000" lon="7.128927000">
+  <ele>256.010000</ele>
+  <time>2009-11-04T18:55:59Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618645000" lon="7.128933000">
+  <ele>255.980000</ele>
+  <time>2009-11-04T18:56:00Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618632000" lon="7.128943000">
+  <ele>255.920000</ele>
+  <time>2009-11-04T18:56:01Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618626000" lon="7.128958000">
+  <ele>255.730000</ele>
+  <time>2009-11-04T18:56:02Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618614000" lon="7.128964000">
+  <ele>255.710000</ele>
+  <time>2009-11-04T18:56:03Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618606000" lon="7.128972000">
+  <ele>255.620000</ele>
+  <time>2009-11-04T18:56:05Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.210000</hdop>
+</trkpt>
+<trkpt lat="50.618608000" lon="7.128984000">
+  <ele>255.460000</ele>
+  <time>2009-11-04T18:56:06Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618607000" lon="7.128990000">
+  <ele>255.270000</ele>
+  <time>2009-11-04T18:56:07Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618608000" lon="7.128994000">
+  <ele>255.090000</ele>
+  <time>2009-11-04T18:56:08Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618608000" lon="7.128990000">
+  <ele>254.870000</ele>
+  <time>2009-11-04T18:56:09Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618611000" lon="7.128987000">
+  <ele>254.620000</ele>
+  <time>2009-11-04T18:56:10Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.570000</hdop>
+</trkpt>
+<trkpt lat="50.618610000" lon="7.128979000">
+  <ele>254.390000</ele>
+  <time>2009-11-04T18:56:11Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>3.930000</hdop>
+</trkpt>
+<trkpt lat="50.618613000" lon="7.128978000">
+  <ele>254.270000</ele>
+  <time>2009-11-04T18:56:12Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>3.930000</hdop>
+</trkpt>
+<trkpt lat="50.618613000" lon="7.128966000">
+  <ele>254.080000</ele>
+  <time>2009-11-04T18:56:13Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>3.930000</hdop>
+</trkpt>
+<trkpt lat="50.618616000" lon="7.128961000">
+  <ele>253.990000</ele>
+  <time>2009-11-04T18:56:14Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>3.930000</hdop>
+</trkpt>
+<trkpt lat="50.618620000" lon="7.128966000">
+  <ele>253.880000</ele>
+  <time>2009-11-04T18:56:15Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>3.110000</hdop>
+</trkpt>
+<trkpt lat="50.618617000" lon="7.128957000">
+  <ele>254.020000</ele>
+  <time>2009-11-04T18:56:17Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618616000" lon="7.128956000">
+  <ele>254.170000</ele>
+  <time>2009-11-04T18:56:18Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618615000" lon="7.128942000">
+  <ele>254.290000</ele>
+  <time>2009-11-04T18:56:19Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618617000" lon="7.128942000">
+  <ele>254.400000</ele>
+  <time>2009-11-04T18:56:20Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618615000" lon="7.128947000">
+  <ele>254.620000</ele>
+  <time>2009-11-04T18:56:21Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618612000" lon="7.128950000">
+  <ele>254.810000</ele>
+  <time>2009-11-04T18:56:22Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618609000" lon="7.128938000">
+  <ele>254.960000</ele>
+  <time>2009-11-04T18:56:23Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618609000" lon="7.128938000">
+  <ele>255.120000</ele>
+  <time>2009-11-04T18:56:24Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618599000" lon="7.128925000">
+  <ele>255.230000</ele>
+  <time>2009-11-04T18:56:25Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618592000" lon="7.128910000">
+  <ele>255.360000</ele>
+  <time>2009-11-04T18:56:25Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.180000</hdop>
+</trkpt>
+<trkpt lat="50.618581000" lon="7.128902000">
+  <ele>255.390000</ele>
+  <time>2009-11-04T18:56:27Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.860000</hdop>
+</trkpt>
+<trkpt lat="50.618570000" lon="7.128878000">
+  <ele>255.410000</ele>
+  <time>2009-11-04T18:56:28Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.860000</hdop>
+</trkpt>
+<trkpt lat="50.618563000" lon="7.128882000">
+  <ele>255.350000</ele>
+  <time>2009-11-04T18:56:29Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618556000" lon="7.128887000">
+  <ele>255.300000</ele>
+  <time>2009-11-04T18:56:31Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618550000" lon="7.128894000">
+  <ele>255.250000</ele>
+  <time>2009-11-04T18:56:32Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618554000" lon="7.128936000">
+  <ele>254.860000</ele>
+  <time>2009-11-04T18:56:34Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618552000" lon="7.128959000">
+  <ele>254.830000</ele>
+  <time>2009-11-04T18:56:35Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.770000</hdop>
+</trkpt>
+<trkpt lat="50.618552000" lon="7.128988000">
+  <ele>254.690000</ele>
+  <time>2009-11-04T18:56:37Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>4.440000</hdop>
+</trkpt>
+<trkpt lat="50.618550000" lon="7.128994000">
+  <ele>254.560000</ele>
+  <time>2009-11-04T18:56:38Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.440000</hdop>
+</trkpt>
+<trkpt lat="50.618540000" lon="7.129020000">
+  <ele>254.370000</ele>
+  <time>2009-11-04T18:56:39Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.440000</hdop>
+</trkpt>
+<trkpt lat="50.618533000" lon="7.129037000">
+  <ele>254.300000</ele>
+  <time>2009-11-04T18:56:41Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.450000</hdop>
+</trkpt>
+<trkpt lat="50.618529000" lon="7.129043000">
+  <ele>254.250000</ele>
+  <time>2009-11-04T18:56:42Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.440000</hdop>
+</trkpt>
+<trkpt lat="50.618539000" lon="7.129045000">
+  <ele>254.140000</ele>
+  <time>2009-11-04T18:56:43Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.380000</hdop>
+</trkpt>
+<trkpt lat="50.618543000" lon="7.129050000">
+  <ele>254.040000</ele>
+  <time>2009-11-04T18:56:44Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.380000</hdop>
+</trkpt>
+<trkpt lat="50.618562000" lon="7.129055000">
+  <ele>253.840000</ele>
+  <time>2009-11-04T18:56:45Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.380000</hdop>
+</trkpt>
+<trkpt lat="50.618562000" lon="7.129055000">
+  <ele>253.840000</ele>
+  <time>2009-11-04T18:56:46Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.380000</hdop>
+</trkpt>
+<trkpt lat="50.618575000" lon="7.129047000">
+  <ele>253.690000</ele>
+  <time>2009-11-04T18:56:47Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.380000</hdop>
+</trkpt>
+<trkpt lat="50.618571000" lon="7.129040000">
+  <ele>253.650000</ele>
+  <time>2009-11-04T18:56:48Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.170000</hdop>
+</trkpt>
+<trkpt lat="50.618569000" lon="7.129037000">
+  <ele>253.620000</ele>
+  <time>2009-11-04T18:56:49Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.100000</hdop>
+</trkpt>
+<trkpt lat="50.618564000" lon="7.128988000">
+  <ele>253.140000</ele>
+  <time>2009-11-04T18:56:51Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618559000" lon="7.128953000">
+  <ele>252.780000</ele>
+  <time>2009-11-04T18:56:52Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618561000" lon="7.128933000">
+  <ele>252.420000</ele>
+  <time>2009-11-04T18:56:53Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618564000" lon="7.128921000">
+  <ele>252.120000</ele>
+  <time>2009-11-04T18:56:54Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.360000</hdop>
+</trkpt>
+<trkpt lat="50.618568000" lon="7.128914000">
+  <ele>251.970000</ele>
+  <time>2009-11-04T18:56:55Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.350000</hdop>
+</trkpt>
+<trkpt lat="50.618574000" lon="7.128913000">
+  <ele>251.840000</ele>
+  <time>2009-11-04T18:56:56Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618573000" lon="7.128907000">
+  <ele>251.680000</ele>
+  <time>2009-11-04T18:56:57Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618570000" lon="7.128899000">
+  <ele>251.650000</ele>
+  <time>2009-11-04T18:56:58Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618546000" lon="7.128893000">
+  <ele>251.510000</ele>
+  <time>2009-11-04T18:56:59Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.370000</hdop>
+</trkpt>
+<trkpt lat="50.618537000" lon="7.128889000">
+  <ele>251.410000</ele>
+  <time>2009-11-04T18:57:01Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.370000</hdop>
+</trkpt>
+<trkpt lat="50.618532000" lon="7.128883000">
+  <ele>251.340000</ele>
+  <time>2009-11-04T18:57:02Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.370000</hdop>
+</trkpt>
+<trkpt lat="50.618526000" lon="7.128874000">
+  <ele>251.220000</ele>
+  <time>2009-11-04T18:57:03Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.370000</hdop>
+</trkpt>
+<trkpt lat="50.618525000" lon="7.128868000">
+  <ele>250.970000</ele>
+  <time>2009-11-04T18:57:04Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.370000</hdop>
+</trkpt>
+<trkpt lat="50.618517000" lon="7.128861000">
+  <ele>250.890000</ele>
+  <time>2009-11-04T18:57:06Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.370000</hdop>
+</trkpt>
+<trkpt lat="50.618502000" lon="7.128868000">
+  <ele>250.840000</ele>
+  <time>2009-11-04T18:57:07Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.370000</hdop>
+</trkpt>
+<trkpt lat="50.618488000" lon="7.128880000">
+  <ele>250.810000</ele>
+  <time>2009-11-04T18:57:08Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.370000</hdop>
+</trkpt>
+<trkpt lat="50.618478000" lon="7.128885000">
+  <ele>250.750000</ele>
+  <time>2009-11-04T18:57:09Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.370000</hdop>
+</trkpt>
+<trkpt lat="50.618430000" lon="7.128894000">
+  <ele>250.650000</ele>
+  <time>2009-11-04T18:57:11Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618380000" lon="7.128900000">
+  <ele>250.580000</ele>
+  <time>2009-11-04T18:57:12Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618349000" lon="7.128895000">
+  <ele>250.380000</ele>
+  <time>2009-11-04T18:57:13Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618310000" lon="7.128869000">
+  <ele>250.090000</ele>
+  <time>2009-11-04T18:57:14Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>3.950000</hdop>
+</trkpt>
+<trkpt lat="50.618314000" lon="7.128856000">
+  <ele>250.060000</ele>
+  <time>2009-11-04T18:57:16Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>3.950000</hdop>
+</trkpt>
+<trkpt lat="50.618326000" lon="7.128842000">
+  <ele>250.020000</ele>
+  <time>2009-11-04T18:57:17Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>3.950000</hdop>
+</trkpt>
+<trkpt lat="50.618332000" lon="7.128839000">
+  <ele>249.910000</ele>
+  <time>2009-11-04T18:57:18Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.950000</hdop>
+</trkpt>
+<trkpt lat="50.618335000" lon="7.128836000">
+  <ele>249.850000</ele>
+  <time>2009-11-04T18:57:19Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.950000</hdop>
+</trkpt>
+<trkpt lat="50.618335000" lon="7.128833000">
+  <ele>249.820000</ele>
+  <time>2009-11-04T18:57:20Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.950000</hdop>
+</trkpt>
+<trkpt lat="50.618371000" lon="7.128847000">
+  <ele>249.500000</ele>
+  <time>2009-11-04T18:57:21Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618347000" lon="7.128840000">
+  <ele>249.410000</ele>
+  <time>2009-11-04T18:57:23Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.230000</hdop>
+</trkpt>
+<trkpt lat="50.618334000" lon="7.128831000">
+  <ele>249.310000</ele>
+  <time>2009-11-04T18:57:24Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.230000</hdop>
+</trkpt>
+<trkpt lat="50.618456000" lon="7.128875000">
+  <ele>249.330000</ele>
+  <time>2009-11-04T18:57:25Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.230000</hdop>
+</trkpt>
+<trkpt lat="50.618465000" lon="7.128876000">
+  <ele>249.270000</ele>
+  <time>2009-11-04T18:57:27Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618472000" lon="7.128873000">
+  <ele>248.950000</ele>
+  <time>2009-11-04T18:57:28Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618480000" lon="7.128865000">
+  <ele>248.740000</ele>
+  <time>2009-11-04T18:57:30Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.590000</hdop>
+</trkpt>
+<trkpt lat="50.618487000" lon="7.128866000">
+  <ele>248.580000</ele>
+  <time>2009-11-04T18:57:31Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.650000</hdop>
+</trkpt>
+<trkpt lat="50.618496000" lon="7.128870000">
+  <ele>248.420000</ele>
+  <time>2009-11-04T18:57:32Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.250000</hdop>
+</trkpt>
+<trkpt lat="50.618498000" lon="7.128883000">
+  <ele>248.270000</ele>
+  <time>2009-11-04T18:57:33Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.250000</hdop>
+</trkpt>
+<trkpt lat="50.618504000" lon="7.128859000">
+  <ele>247.980000</ele>
+  <time>2009-11-04T18:57:34Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.140000</hdop>
+</trkpt>
+<trkpt lat="50.618515000" lon="7.128863000">
+  <ele>247.770000</ele>
+  <time>2009-11-04T18:57:36Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.140000</hdop>
+</trkpt>
+<trkpt lat="50.618520000" lon="7.128861000">
+  <ele>247.550000</ele>
+  <time>2009-11-04T18:57:37Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.140000</hdop>
+</trkpt>
+<trkpt lat="50.618516000" lon="7.128865000">
+  <ele>247.530000</ele>
+  <time>2009-11-04T18:57:38Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.970000</hdop>
+</trkpt>
+<trkpt lat="50.618516000" lon="7.128867000">
+  <ele>247.410000</ele>
+  <time>2009-11-04T18:57:39Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.220000</hdop>
+</trkpt>
+<trkpt lat="50.618523000" lon="7.128859000">
+  <ele>247.170000</ele>
+  <time>2009-11-04T18:57:41Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618531000" lon="7.128860000">
+  <ele>247.010000</ele>
+  <time>2009-11-04T18:57:42Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618533000" lon="7.128858000">
+  <ele>246.910000</ele>
+  <time>2009-11-04T18:57:43Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618530000" lon="7.128862000">
+  <ele>247.020000</ele>
+  <time>2009-11-04T18:57:44Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618531000" lon="7.128861000">
+  <ele>247.220000</ele>
+  <time>2009-11-04T18:57:46Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618526000" lon="7.128863000">
+  <ele>247.270000</ele>
+  <time>2009-11-04T18:57:47Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.270000</hdop>
+</trkpt>
+<trkpt lat="50.618525000" lon="7.128860000">
+  <ele>247.270000</ele>
+  <time>2009-11-04T18:57:48Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.618522000" lon="7.128854000">
+  <ele>247.290000</ele>
+  <time>2009-11-04T18:57:50Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.618518000" lon="7.128855000">
+  <ele>247.280000</ele>
+  <time>2009-11-04T18:57:51Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.618513000" lon="7.128853000">
+  <ele>247.250000</ele>
+  <time>2009-11-04T18:57:52Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.618511000" lon="7.128847000">
+  <ele>247.180000</ele>
+  <time>2009-11-04T18:57:53Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.618509000" lon="7.128841000">
+  <ele>247.150000</ele>
+  <time>2009-11-04T18:57:54Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.820000</hdop>
+</trkpt>
+<trkpt lat="50.618507000" lon="7.128839000">
+  <ele>247.150000</ele>
+  <time>2009-11-04T18:57:55Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.810000</hdop>
+</trkpt>
+<trkpt lat="50.618505000" lon="7.128841000">
+  <ele>247.120000</ele>
+  <time>2009-11-04T18:57:56Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.810000</hdop>
+</trkpt>
+<trkpt lat="50.618504000" lon="7.128839000">
+  <ele>247.130000</ele>
+  <time>2009-11-04T18:57:57Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.810000</hdop>
+</trkpt>
+<trkpt lat="50.618507000" lon="7.128832000">
+  <ele>246.780000</ele>
+  <time>2009-11-04T18:57:59Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.810000</hdop>
+</trkpt>
+<trkpt lat="50.618510000" lon="7.128825000">
+  <ele>246.740000</ele>
+  <time>2009-11-04T18:58:00Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.060000</hdop>
+</trkpt>
+<trkpt lat="50.618513000" lon="7.128820000">
+  <ele>246.620000</ele>
+  <time>2009-11-04T18:58:01Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618513000" lon="7.128816000">
+  <ele>246.790000</ele>
+  <time>2009-11-04T18:58:02Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618515000" lon="7.128816000">
+  <ele>246.720000</ele>
+  <time>2009-11-04T18:58:04Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.920000</hdop>
+</trkpt>
+<trkpt lat="50.618516000" lon="7.128820000">
+  <ele>246.580000</ele>
+  <time>2009-11-04T18:58:05Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.920000</hdop>
+</trkpt>
+<trkpt lat="50.618515000" lon="7.128823000">
+  <ele>246.540000</ele>
+  <time>2009-11-04T18:58:06Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.920000</hdop>
+</trkpt>
+<trkpt lat="50.618518000" lon="7.128824000">
+  <ele>246.490000</ele>
+  <time>2009-11-04T18:58:07Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.920000</hdop>
+</trkpt>
+<trkpt lat="50.618540000" lon="7.128827000">
+  <ele>246.370000</ele>
+  <time>2009-11-04T18:58:08Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618575000" lon="7.128837000">
+  <ele>246.150000</ele>
+  <time>2009-11-04T18:58:10Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618597000" lon="7.128848000">
+  <ele>245.970000</ele>
+  <time>2009-11-04T18:58:11Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.920000</hdop>
+</trkpt>
+<trkpt lat="50.618608000" lon="7.128862000">
+  <ele>245.970000</ele>
+  <time>2009-11-04T18:58:12Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618632000" lon="7.128887000">
+  <ele>245.780000</ele>
+  <time>2009-11-04T18:58:13Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.920000</hdop>
+</trkpt>
+<trkpt lat="50.618636000" lon="7.128902000">
+  <ele>245.750000</ele>
+  <time>2009-11-04T18:58:15Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.970000</hdop>
+</trkpt>
+<trkpt lat="50.618636000" lon="7.128915000">
+  <ele>245.560000</ele>
+  <time>2009-11-04T18:58:16Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.970000</hdop>
+</trkpt>
+<trkpt lat="50.618634000" lon="7.128917000">
+  <ele>245.750000</ele>
+  <time>2009-11-04T18:58:17Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>0.970000</hdop>
+</trkpt>
+<trkpt lat="50.618623000" lon="7.128967000">
+  <ele>245.740000</ele>
+  <time>2009-11-04T18:58:26Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>4.460000</hdop>
+</trkpt>
+<trkpt lat="50.618616000" lon="7.128971000">
+  <ele>245.750000</ele>
+  <time>2009-11-04T18:58:27Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>4.460000</hdop>
+</trkpt>
+<trkpt lat="50.618614000" lon="7.129007000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:58:28Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.910000</hdop>
+</trkpt>
+<trkpt lat="50.618612000" lon="7.129000000">
+  <ele>245.780000</ele>
+  <time>2009-11-04T18:58:29Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.910000</hdop>
+</trkpt>
+<trkpt lat="50.618613000" lon="7.129006000">
+  <ele>245.800000</ele>
+  <time>2009-11-04T18:58:31Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.910000</hdop>
+</trkpt>
+<trkpt lat="50.618627000" lon="7.129009000">
+  <ele>245.850000</ele>
+  <time>2009-11-04T18:58:32Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>3.020000</hdop>
+</trkpt>
+<trkpt lat="50.618634000" lon="7.129012000">
+  <ele>245.890000</ele>
+  <time>2009-11-04T18:58:33Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>3.020000</hdop>
+</trkpt>
+<trkpt lat="50.618641000" lon="7.129003000">
+  <ele>245.910000</ele>
+  <time>2009-11-04T18:58:34Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>3.020000</hdop>
+</trkpt>
+<trkpt lat="50.618639000" lon="7.129003000">
+  <ele>245.960000</ele>
+  <time>2009-11-04T18:58:35Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618649000" lon="7.129005000">
+  <ele>246.020000</ele>
+  <time>2009-11-04T18:58:36Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618681000" lon="7.128999000">
+  <ele>246.180000</ele>
+  <time>2009-11-04T18:58:38Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618683000" lon="7.129002000">
+  <ele>246.260000</ele>
+  <time>2009-11-04T18:58:39Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618664000" lon="7.128990000">
+  <ele>246.520000</ele>
+  <time>2009-11-04T18:58:41Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618655000" lon="7.128994000">
+  <ele>246.670000</ele>
+  <time>2009-11-04T18:58:42Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618645000" lon="7.128989000">
+  <ele>246.870000</ele>
+  <time>2009-11-04T18:58:43Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618634000" lon="7.128977000">
+  <ele>247.200000</ele>
+  <time>2009-11-04T18:58:44Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618632000" lon="7.128959000">
+  <ele>247.510000</ele>
+  <time>2009-11-04T18:58:45Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.520000</hdop>
+</trkpt>
+<trkpt lat="50.618623000" lon="7.128929000">
+  <ele>248.270000</ele>
+  <time>2009-11-04T18:58:46Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618619000" lon="7.128920000">
+  <ele>248.450000</ele>
+  <time>2009-11-04T18:58:48Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618614000" lon="7.128914000">
+  <ele>248.580000</ele>
+  <time>2009-11-04T18:58:49Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618609000" lon="7.128913000">
+  <ele>248.780000</ele>
+  <time>2009-11-04T18:58:50Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.190000</hdop>
+</trkpt>
+<trkpt lat="50.618608000" lon="7.128925000">
+  <ele>248.900000</ele>
+  <time>2009-11-04T18:58:52Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618605000" lon="7.128927000">
+  <ele>249.010000</ele>
+  <time>2009-11-04T18:58:53Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618602000" lon="7.128927000">
+  <ele>249.030000</ele>
+  <time>2009-11-04T18:58:54Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618601000" lon="7.128921000">
+  <ele>249.260000</ele>
+  <time>2009-11-04T18:58:55Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618598000" lon="7.128899000">
+  <ele>250.120000</ele>
+  <time>2009-11-04T18:58:57Z</time>
+  <name>gypsy</name>
+  <sat>8</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618595000" lon="7.128901000">
+  <ele>250.210000</ele>
+  <time>2009-11-04T18:58:58Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618592000" lon="7.128904000">
+  <ele>250.440000</ele>
+  <time>2009-11-04T18:58:59Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618589000" lon="7.128898000">
+  <ele>251.040000</ele>
+  <time>2009-11-04T18:59:00Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618589000" lon="7.128888000">
+  <ele>251.580000</ele>
+  <time>2009-11-04T18:59:02Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618593000" lon="7.128900000">
+  <ele>251.450000</ele>
+  <time>2009-11-04T18:59:03Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618600000" lon="7.128902000">
+  <ele>251.350000</ele>
+  <time>2009-11-04T18:59:04Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618608000" lon="7.128901000">
+  <ele>251.370000</ele>
+  <time>2009-11-04T18:59:05Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618612000" lon="7.128908000">
+  <ele>251.550000</ele>
+  <time>2009-11-04T18:59:06Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618617000" lon="7.128914000">
+  <ele>251.530000</ele>
+  <time>2009-11-04T18:59:07Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.120000</hdop>
+</trkpt>
+<trkpt lat="50.618624000" lon="7.128914000">
+  <ele>251.660000</ele>
+  <time>2009-11-04T18:59:08Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618634000" lon="7.128914000">
+  <ele>251.690000</ele>
+  <time>2009-11-04T18:59:09Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.110000</hdop>
+</trkpt>
+<trkpt lat="50.618637000" lon="7.128901000">
+  <ele>251.860000</ele>
+  <time>2009-11-04T18:59:10Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618647000" lon="7.128907000">
+  <ele>251.860000</ele>
+  <time>2009-11-04T18:59:12Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618665000" lon="7.128914000">
+  <ele>251.880000</ele>
+  <time>2009-11-04T18:59:13Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.130000</hdop>
+</trkpt>
+<trkpt lat="50.618663000" lon="7.128932000">
+  <ele>252.090000</ele>
+  <time>2009-11-04T18:59:15Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.880000</hdop>
+</trkpt>
+<trkpt lat="50.618660000" lon="7.128936000">
+  <ele>252.190000</ele>
+  <time>2009-11-04T18:59:16Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.880000</hdop>
+</trkpt>
+<trkpt lat="50.618652000" lon="7.128936000">
+  <ele>252.220000</ele>
+  <time>2009-11-04T18:59:17Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.880000</hdop>
+</trkpt>
+<trkpt lat="50.618641000" lon="7.128935000">
+  <ele>252.320000</ele>
+  <time>2009-11-04T18:59:18Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.880000</hdop>
+</trkpt>
+<trkpt lat="50.618642000" lon="7.128934000">
+  <ele>252.310000</ele>
+  <time>2009-11-04T18:59:19Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.880000</hdop>
+</trkpt>
+<trkpt lat="50.618633000" lon="7.128927000">
+  <ele>252.290000</ele>
+  <time>2009-11-04T18:59:20Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618632000" lon="7.128921000">
+  <ele>252.420000</ele>
+  <time>2009-11-04T18:59:22Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>0.990000</hdop>
+</trkpt>
+<trkpt lat="50.618629000" lon="7.128919000">
+  <ele>252.500000</ele>
+  <time>2009-11-04T18:59:23Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.350000</hdop>
+</trkpt>
+<trkpt lat="50.618616000" lon="7.128915000">
+  <ele>252.570000</ele>
+  <time>2009-11-04T18:59:24Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>2.350000</hdop>
+</trkpt>
+<trkpt lat="50.618606000" lon="7.128917000">
+  <ele>252.610000</ele>
+  <time>2009-11-04T18:59:25Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>3.250000</hdop>
+</trkpt>
+<trkpt lat="50.618600000" lon="7.128920000">
+  <ele>252.680000</ele>
+  <time>2009-11-04T18:59:26Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>3.250000</hdop>
+</trkpt>
+<trkpt lat="50.618592000" lon="7.128930000">
+  <ele>252.670000</ele>
+  <time>2009-11-04T18:59:27Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>2.970000</hdop>
+</trkpt>
+<trkpt lat="50.618586000" lon="7.128932000">
+  <ele>252.630000</ele>
+  <time>2009-11-04T18:59:29Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>7.830000</hdop>
+</trkpt>
+<trkpt lat="50.618575000" lon="7.128923000">
+  <ele>252.600000</ele>
+  <time>2009-11-04T18:59:30Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>9.720000</hdop>
+</trkpt>
+<trkpt lat="50.618565000" lon="7.128913000">
+  <ele>252.590000</ele>
+  <time>2009-11-04T18:59:31Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>9.730000</hdop>
+</trkpt>
+<trkpt lat="50.618556000" lon="7.128909000">
+  <ele>252.580000</ele>
+  <time>2009-11-04T18:59:32Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>9.760000</hdop>
+</trkpt>
+<trkpt lat="50.618548000" lon="7.128900000">
+  <ele>252.590000</ele>
+  <time>2009-11-04T18:59:34Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>9.800000</hdop>
+</trkpt>
+<trkpt lat="50.618545000" lon="7.128893000">
+  <ele>252.610000</ele>
+  <time>2009-11-04T18:59:35Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>9.810000</hdop>
+</trkpt>
+<trkpt lat="50.618542000" lon="7.128896000">
+  <ele>252.610000</ele>
+  <time>2009-11-04T18:59:36Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>9.830000</hdop>
+</trkpt>
+<trkpt lat="50.618542000" lon="7.128903000">
+  <ele>252.620000</ele>
+  <time>2009-11-04T18:59:37Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>9.850000</hdop>
+</trkpt>
+<trkpt lat="50.618540000" lon="7.128918000">
+  <ele>252.650000</ele>
+  <time>2009-11-04T18:59:38Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>9.880000</hdop>
+</trkpt>
+<trkpt lat="50.618542000" lon="7.128922000">
+  <ele>252.640000</ele>
+  <time>2009-11-04T18:59:40Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.020000</hdop>
+</trkpt>
+<trkpt lat="50.618544000" lon="7.128937000">
+  <ele>252.630000</ele>
+  <time>2009-11-04T18:59:41Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.680000</hdop>
+</trkpt>
+<trkpt lat="50.618546000" lon="7.128942000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:59:42Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>2.680000</hdop>
+</trkpt>
+<trkpt lat="50.618560000" lon="7.128936000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T18:59:43Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>7.980000</hdop>
+</trkpt>
+<trkpt lat="50.618575000" lon="7.128919000">
+  <ele>252.610000</ele>
+  <time>2009-11-04T18:59:44Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>7.990000</hdop>
+</trkpt>
+<trkpt lat="50.618568000" lon="7.128911000">
+  <ele>252.590000</ele>
+  <time>2009-11-04T18:59:45Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>8.000000</hdop>
+</trkpt>
+<trkpt lat="50.618561000" lon="7.128898000">
+  <ele>252.580000</ele>
+  <time>2009-11-04T18:59:46Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>8.010000</hdop>
+</trkpt>
+<trkpt lat="50.618562000" lon="7.128839000">
+  <ele>252.580000</ele>
+  <time>2009-11-04T18:59:47Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>8.020000</hdop>
+</trkpt>
+<trkpt lat="50.618563000" lon="7.128803000">
+  <ele>252.600000</ele>
+  <time>2009-11-04T18:59:49Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618564000" lon="7.128774000">
+  <ele>252.610000</ele>
+  <time>2009-11-04T18:59:50Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618564000" lon="7.128724000">
+  <ele>252.630000</ele>
+  <time>2009-11-04T18:59:52Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618561000" lon="7.128696000">
+  <ele>252.640000</ele>
+  <time>2009-11-04T18:59:53Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618560000" lon="7.128680000">
+  <ele>252.640000</ele>
+  <time>2009-11-04T18:59:54Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618556000" lon="7.128658000">
+  <ele>252.660000</ele>
+  <time>2009-11-04T18:59:55Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618554000" lon="7.128619000">
+  <ele>252.710000</ele>
+  <time>2009-11-04T18:59:57Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618552000" lon="7.128597000">
+  <ele>252.720000</ele>
+  <time>2009-11-04T18:59:58Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618551000" lon="7.128581000">
+  <ele>252.740000</ele>
+  <time>2009-11-04T18:59:59Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618552000" lon="7.128566000">
+  <ele>252.760000</ele>
+  <time>2009-11-04T19:00:00Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618553000" lon="7.128567000">
+  <ele>252.780000</ele>
+  <time>2009-11-04T19:00:01Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.750000</hdop>
+</trkpt>
+<trkpt lat="50.618552000" lon="7.128552000">
+  <ele>252.840000</ele>
+  <time>2009-11-04T19:00:02Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.840000</hdop>
+</trkpt>
+<trkpt lat="50.618555000" lon="7.128558000">
+  <ele>252.910000</ele>
+  <time>2009-11-04T19:00:04Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.200000</hdop>
+</trkpt>
+<trkpt lat="50.618560000" lon="7.128551000">
+  <ele>252.920000</ele>
+  <time>2009-11-04T19:00:05Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.840000</hdop>
+</trkpt>
+<trkpt lat="50.618555000" lon="7.128546000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:07Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>2.680000</hdop>
+</trkpt>
+<trkpt lat="50.618552000" lon="7.128549000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:08Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>2.680000</hdop>
+</trkpt>
+<trkpt lat="50.618555000" lon="7.128586000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:09Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>2.680000</hdop>
+</trkpt>
+<trkpt lat="50.618559000" lon="7.128618000">
+  <ele>252.910000</ele>
+  <time>2009-11-04T19:00:10Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>1.200000</hdop>
+</trkpt>
+<trkpt lat="50.618551000" lon="7.128621000">
+  <ele>252.910000</ele>
+  <time>2009-11-04T19:00:12Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>2.680000</hdop>
+</trkpt>
+<trkpt lat="50.618544000" lon="7.128623000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:13Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>2.680000</hdop>
+</trkpt>
+<trkpt lat="50.618540000" lon="7.128622000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:14Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>2.680000</hdop>
+</trkpt>
+<trkpt lat="50.618538000" lon="7.128625000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:15Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>8.320000</hdop>
+</trkpt>
+<trkpt lat="50.618535000" lon="7.128650000">
+  <ele>252.930000</ele>
+  <time>2009-11-04T19:00:16Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>8.340000</hdop>
+</trkpt>
+<trkpt lat="50.618531000" lon="7.128667000">
+  <ele>252.930000</ele>
+  <time>2009-11-04T19:00:17Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.170000</hdop>
+</trkpt>
+<trkpt lat="50.618538000" lon="7.128690000">
+  <ele>252.930000</ele>
+  <time>2009-11-04T19:00:18Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618538000" lon="7.128706000">
+  <ele>252.940000</ele>
+  <time>2009-11-04T19:00:19Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618548000" lon="7.128717000">
+  <ele>252.960000</ele>
+  <time>2009-11-04T19:00:20Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618560000" lon="7.128723000">
+  <ele>252.990000</ele>
+  <time>2009-11-04T19:00:21Z</time>
+  <name>gypsy</name>
+  <sat>5</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618566000" lon="7.128714000">
+  <ele>253.020000</ele>
+  <time>2009-11-04T19:00:22Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618580000" lon="7.128715000">
+  <ele>253.040000</ele>
+  <time>2009-11-04T19:00:24Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618584000" lon="7.128719000">
+  <ele>253.060000</ele>
+  <time>2009-11-04T19:00:25Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618587000" lon="7.128723000">
+  <ele>253.070000</ele>
+  <time>2009-11-04T19:00:26Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618588000" lon="7.128725000">
+  <ele>253.080000</ele>
+  <time>2009-11-04T19:00:27Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618589000" lon="7.128730000">
+  <ele>253.100000</ele>
+  <time>2009-11-04T19:00:28Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.980000</hdop>
+</trkpt>
+<trkpt lat="50.618590000" lon="7.128728000">
+  <ele>253.120000</ele>
+  <time>2009-11-04T19:00:29Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.980000</hdop>
+</trkpt>
+<trkpt lat="50.618592000" lon="7.128727000">
+  <ele>253.130000</ele>
+  <time>2009-11-04T19:00:30Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618595000" lon="7.128726000">
+  <ele>253.140000</ele>
+  <time>2009-11-04T19:00:31Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618596000" lon="7.128725000">
+  <ele>253.160000</ele>
+  <time>2009-11-04T19:00:32Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618598000" lon="7.128725000">
+  <ele>253.170000</ele>
+  <time>2009-11-04T19:00:33Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618602000" lon="7.128729000">
+  <ele>253.210000</ele>
+  <time>2009-11-04T19:00:34Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>1.010000</hdop>
+</trkpt>
+<trkpt lat="50.618605000" lon="7.128732000">
+  <ele>253.210000</ele>
+  <time>2009-11-04T19:00:35Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.880000</hdop>
+</trkpt>
+<trkpt lat="50.618608000" lon="7.128737000">
+  <ele>253.200000</ele>
+  <time>2009-11-04T19:00:37Z</time>
+  <name>gypsy</name>
+  <sat>6</sat>
+  <hdop>0.880000</hdop>
+</trkpt>
+<trkpt lat="50.618612000" lon="7.128729000">
+  <ele>253.210000</ele>
+  <time>2009-11-04T19:00:38Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.280000</hdop>
+</trkpt>
+<trkpt lat="50.618608000" lon="7.128723000">
+  <ele>253.210000</ele>
+  <time>2009-11-04T19:00:39Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>1.280000</hdop>
+</trkpt>
+<trkpt lat="50.618575000" lon="7.128705000">
+  <ele>253.230000</ele>
+  <time>2009-11-04T19:00:41Z</time>
+  <name>gypsy</name>
+  <sat>7</sat>
+  <hdop>3.790000</hdop>
+</trkpt>
+<trkpt lat="50.618536000" lon="7.128628000">
+  <ele>253.250000</ele>
+  <time>2009-11-04T19:00:42Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.790000</hdop>
+</trkpt>
+<trkpt lat="50.618518000" lon="7.128602000">
+  <ele>253.270000</ele>
+  <time>2009-11-04T19:00:44Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.790000</hdop>
+</trkpt>
+<trkpt lat="50.618505000" lon="7.128549000">
+  <ele>253.290000</ele>
+  <time>2009-11-04T19:00:45Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.790000</hdop>
+</trkpt>
+<trkpt lat="50.618484000" lon="7.128505000">
+  <ele>253.320000</ele>
+  <time>2009-11-04T19:00:46Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.290000</hdop>
+</trkpt>
+<trkpt lat="50.618468000" lon="7.128455000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:47Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.280000</hdop>
+</trkpt>
+<trkpt lat="50.618425000" lon="7.128327000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:51Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>3.280000</hdop>
+</trkpt>
+<trkpt lat="50.618412000" lon="7.128302000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:52Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.880000</hdop>
+</trkpt>
+<trkpt lat="50.618395000" lon="7.128270000">
+  <ele>253.410000</ele>
+  <time>2009-11-04T19:00:53Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>3.880000</hdop>
+</trkpt>
+<trkpt lat="50.618400000" lon="7.128273000">
+  <ele>253.430000</ele>
+  <time>2009-11-04T19:00:54Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>8.810000</hdop>
+</trkpt>
+<trkpt lat="50.618412000" lon="7.128337000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:55Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.460000</hdop>
+</trkpt>
+<trkpt lat="50.618432000" lon="7.128395000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:57Z</time>
+  <name>gypsy</name>
+  <sat>4</sat>
+  <hdop>2.460000</hdop>
+</trkpt>
+<trkpt lat="50.618459000" lon="7.128466000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:58Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>2.470000</hdop>
+</trkpt>
+<trkpt lat="50.618454000" lon="7.128509000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:00:59Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>2.470000</hdop>
+</trkpt>
+<trkpt lat="50.618446000" lon="7.128573000">
+  <ele>-99999.000000</ele>
+  <time>2009-11-04T19:01:01Z</time>
+  <name>gypsy</name>
+  <sat>3</sat>
+  <hdop>2.460000</hdop>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

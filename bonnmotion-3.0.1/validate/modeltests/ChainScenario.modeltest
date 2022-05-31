@@ -1,0 +1,4 @@
+model=ChainScenario
+clArgs={RandomWaypoint -d 200 -n 10 -x 100 -y 100 -o 3 -R 12345,ManhattanGrid -d 200 -n 10 -x 400 -y 300 -u 4 -v 3 -R 12345;Boundless -R 1234 -x 200 -y 200 -d 200 -n 10 -t 0.5 -m 1 -s 1.0 -h 1.5 -l 0.5 -p 20.0,RandomWaypoint -d 200 -n 10 -x 100 -y 100 -o 3 -R 12345;GaussMarkov -R 1234 -x 200 -y 200 -d 5000 -n 50 -a 0.39269908169872414 -h 1.5 -q 2.5 -s 0.5 -b true -g false -u true,ManhattanGrid -d 200 -n 50 -x 400 -y 300 -u 4 -v 3 -R 12345}
+mode={0;1}
+parts=true

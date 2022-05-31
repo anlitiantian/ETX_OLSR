@@ -1,0 +1,19 @@
+app=WiseML
+paramsfile=modeltests-basic
+extensions={wml}
+appparams=-r 50
+
+[testcase]
+appparams=-r 50 -e
+
+[testcase]
+appparams=-r 50 -o
+
+[testcase]
+appparams=-r 50 -e -o
+
+[testcase]
+appparams=-r 50 -L 10
+
+[testcase]
+appparams=-r 50 -L 10 -e

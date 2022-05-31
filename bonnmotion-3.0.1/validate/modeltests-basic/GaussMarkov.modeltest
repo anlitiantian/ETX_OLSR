@@ -1,0 +1,17 @@
+model=GaussMarkov
+ignore=3600.0
+randomSeed=1282050589154
+x=200.0
+y=200.0
+duration=3000.0
+nn=20
+circular=false
+updateFrequency=2.5
+maxspeed=1.5
+angleStdDev=0.39269908169872414
+speedStdDev=0.5
+inputX=200.0
+inputY=200.0
+bounce={false;true}
+initGauss={false;true}
+uniformSpeed={false;true}

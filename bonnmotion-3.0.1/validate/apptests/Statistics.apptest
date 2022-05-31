@@ -1,0 +1,8 @@
+app=Statistics
+paramsfile=modeltests-basic
+extensions={stats}
+appparams=-r 50
+
+[testcase]
+extensions={stats_50.mincut;stats_50.nodedeg;stats_50.part;stats_50.partdeg;stats_50.stability;stats_50.uni}
+appparams=-r 50 -G 60 -M 60 -N 60 -P 60 -S 60 -U 60 -V 60

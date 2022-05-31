@@ -1,0 +1,17 @@
+model=SLAW
+ignore=3600.0
+randomSeed=1
+x=1000.0
+y=1000.0
+duration=1000.0
+nn=100
+circular=false
+noOfWaypoints={500;1000}
+minpause=10.0
+maxpause=50.0
+beta=1.0
+hurst=0.75
+dist_alpha=3.0
+cluster_range={50.0;75.0}
+cluster_ratio={3;5}
+waypoint_ratio=5

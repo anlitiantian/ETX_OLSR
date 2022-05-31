@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib64
+includedir=/usr/local/include/ns3.33
+
+Name: libns3-mesh
+Description: ns-3 module ns3-mesh
+Version: 3.33
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.33-mesh-debug
+Cflags: -I${includedir}
+Requires: libns3.33-internet-debug libns3.33-wifi-debug

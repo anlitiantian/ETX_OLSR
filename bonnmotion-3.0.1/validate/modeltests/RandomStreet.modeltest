@@ -1,0 +1,17 @@
+model=RandomStreet
+ignore=5000.0
+randomSeed=1429103361
+x=12990.984575574985
+y=13227.531978098676
+duration=86400.0
+nn={2;10;30}
+circular=false
+J=2D
+boundingBox=7.996 52.2421 8.1127 52.3148
+clippingMethod=1
+rsMetric=Pedestrian
+osmFile={$}../maps/osna-validate-20140510.osm.pbf
+rsURL=http://trimple.cs.uos.de:5000
+distFile=null
+maxPause=14400.0
+speed={0.5 2.0;0.5 3.0}

@@ -1,0 +1,12 @@
+model=RandomDirection
+ignore=3600.0
+randomSeed=1282049235661
+x=200.0
+y=200.0
+duration=3000.0
+nn=20
+circular=false
+minpause=0.0
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0

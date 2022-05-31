@@ -1,0 +1,9 @@
+model=Static
+ignore=3600.0
+randomSeed=1282048088166
+x=200.0
+y=200.0
+duration=3000.0
+nn=20
+circular=false
+densityLevels=1

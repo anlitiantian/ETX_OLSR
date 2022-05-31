@@ -1,0 +1,5 @@
+[2022-05-26 21:16:34.728] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-26 21:16:34.757] [main] [info] update#setState idle
+[2022-05-26 21:16:34.852] [main] [info] ExtensionHostStarterWorker created
+[2022-05-26 21:17:04.760] [main] [info] update#setState checking for updates
+[2022-05-26 21:17:05.688] [main] [info] update#setState available for download

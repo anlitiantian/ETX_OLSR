@@ -1,0 +1,12 @@
+model=Pursue
+ignore=3600.0
+randomSeed=1286291550703
+x=200.0
+y=200.0
+duration=3000.0
+nn=20
+circular=false
+maxspeed=1.5
+minspeed=0.5
+aggressiveness=0.5
+pursueRandomnessMagnitude=0.5

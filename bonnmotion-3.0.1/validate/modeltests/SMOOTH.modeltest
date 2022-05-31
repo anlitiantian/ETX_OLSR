@@ -1,0 +1,16 @@
+model=SMOOTH
+ignore=0
+randomSeed=5
+nn=10
+x=20000
+y=20000
+duration=200
+range=100
+clusters=117
+alpha=1.45
+f_min=1
+f_max=14000
+beta=1.5
+p_min=10
+p_max=40200
+print=ICT

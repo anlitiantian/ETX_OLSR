@@ -1,0 +1,4 @@
+set val(x) 520.0
+set val(y) 520.0
+set val(nn) 10
+set val(duration) 600.0
