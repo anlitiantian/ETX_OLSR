@@ -1842,6 +1842,16 @@ namespace ns3
         {
             NS_LOG_FUNCTION(this);
 
+            // if (m_mainAddress == "10.1.1.1")
+            // {
+            //     Ptr<Node> node = GetObject<Node>();
+            //     Ptr<GaussMarkovMobilityModel> mobModel = node->GetObject<GaussMarkovMobilityModel>();
+            //     Vector3D pos = mobModel->GetPosition();
+            //     std::cout << "At " << Simulator::Now().GetSeconds() << " node- " << m_mainAddress
+            //               << ": Position(" << pos.x << ", " << pos.y << ", " << pos.z
+            //               << "); "<< std::endl;
+            // }
+
             olsr::MessageHeader msg;
             Time now = Simulator::Now();
 

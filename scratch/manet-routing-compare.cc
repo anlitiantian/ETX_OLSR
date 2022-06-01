@@ -463,14 +463,14 @@ void RoutingExperiment::Run(int nSinks, double txp, std::string CSVfileName)
     FlowMonitorHelper flowmon;
     Ptr<FlowMonitor> monitor = flowmon.InstallAll();
 
-    NS_LOG_INFO("Run Simulation.");
+    NS_LOG_INFO("Run Simulationdsada");
 
     CheckThroughput();
     countTime();
     // showRoutingTable(adhocNodes.Get(0));
     // showPosition(adhocNodes.Get(0));
 
-    AnimationInterface anim("manet-routing-compare.xml"); //生成动画演示
+    AnimationInterface anim("manet-routing-compare.xml"); //生成动画演示kdosfs
 
     Simulator::Stop(Seconds(TotalTime));
     Simulator::Run();

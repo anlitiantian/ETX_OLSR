@@ -86,6 +86,11 @@ public:
    */
   static TypeId GetTypeId (void);
   GaussMarkovMobilityModel ();
+
+  double GetVelocityNum();
+  double GetDirection();
+  double GetPitch();
+
 private:
 
 

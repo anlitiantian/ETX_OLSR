@@ -123,7 +123,7 @@ void RoutingExperiment::CommandSetup(int argc, char **argv)
 	CommandLine cmd(__FILE__);
 	cmd.AddValue("traceMobility", "Enable mobility tracing", m_traceMobility);
 	cmd.AddValue("distance", "两个节点间的距离", m_distance);
-	cmd.AddValue("txp", "两个节点间的距离", m_txp);
+	cmd.AddValue("txp", "最大最小传输水平", m_txp);
 	cmd.Parse(argc, argv);
 }
 
@@ -141,7 +141,7 @@ void RoutingExperiment::Run()
 
 	double TotalTime = 50.0;
 	std::string rate("2048bps");
-	std::string phyMode("DsssRate11Mbps");
+	std::string phyMode("DsssRate5_5Mbps");
 	std::string tr_name("manet-routing-compare");
 
 	Config::SetDefault("ns3::OnOffApplication::PacketSize", StringValue("64"));

@@ -69,4 +69,6 @@
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "oneDarkPro.editorTheme": "Nord",
     "editor.tabCompletion": "on",
+    "editor.fontLigatures": false,
+    "files.encoding": "utf8"
 }

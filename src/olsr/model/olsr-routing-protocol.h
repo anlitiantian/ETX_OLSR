@@ -23,6 +23,8 @@
 #ifndef OLSR_AGENT_IMPL_H
 #define OLSR_AGENT_IMPL_H
 
+#include "ns3/gauss-markov-mobility-model.h"
+
 #include "olsr-header.h"
 #include "ns3/test.h"
 #include "olsr-state.h"
