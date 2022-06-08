@@ -50,6 +50,8 @@
 #include "ns3/ipv4-header.h"
 #include "ns3/ipv4-packet-info-tag.h"
 
+#include "ns3/integer.h"
+
 /********** Useful macros **********/
 
 ///
@@ -71,10 +73,13 @@
 
 /********** Holding times **********/
 
+// 平均邻居变化率的统计时间
+#define OLSR_NEIGHBOR_CHANGE_RATE_TIME Time(3 * OLSR_REFRESH_INTERVAL)
+
 /// Neighbor holding time.
-#define OLSR_NEIGHB_HOLD_TIME Time(3 * OLSR_REFRESH_INTERVAL)
+#define OLSR_NEIGHB_HOLD_TIME Time(2 * OLSR_REFRESH_INTERVAL)
 /// Top holding time.
-#define OLSR_TOP_HOLD_TIME Time(3 * m_tcInterval)
+#define OLSR_TOP_HOLD_TIME Time(1 * m_tcInterval)
 /// Dup holding time.
 #define OLSR_DUP_HOLD_TIME Seconds(30)
 /// MID holding time.
@@ -159,7 +164,8 @@ namespace ns3
                     .AddAttribute("HelloInterval", "HELLO messages emission interval.",
                                   TimeValue(Seconds(2)),
                                   MakeTimeAccessor(&RoutingProtocol::m_helloInterval), MakeTimeChecker())
-                    .AddAttribute("TcInterval", "TC messages emission interval.", TimeValue(Seconds(5)),
+                    .AddAttribute("TcInterval", "TC messages emission interval.",
+                                  TimeValue(Seconds(5)),
                                   MakeTimeAccessor(&RoutingProtocol::m_tcInterval), MakeTimeChecker())
                     .AddAttribute("MidInterval",
                                   "MID messages emission interval.  Normally it is equal to TcInterval.",
@@ -182,7 +188,12 @@ namespace ns3
                                     "ns3::olsr::RoutingProtocol::PacketTxRxTracedCallback")
                     .AddTraceSource("RoutingTableChanged", "The OLSR routing table has changed.",
                                     MakeTraceSourceAccessor(&RoutingProtocol::m_routingTableChanged),
-                                    "ns3::olsr::RoutingProtocol::TableChangeTracedCallback");
+                                    "ns3::olsr::RoutingProtocol::TableChangeTracedCallback")
+                    .AddAttribute("MaxCommunicationRadius",
+                                  "手动设置的通信半径（与wifi的最大传输水平有关）.",
+                                  IntegerValue(300),
+                                  MakeIntegerAccessor(&RoutingProtocol::m_commu_radius),
+                                  MakeIntegerChecker<int64_t>());
             return tid;
         }
 
@@ -611,7 +622,7 @@ namespace ns3
                 TwoHopNeighborTuple const &nb2hop_tuple = *it;
                 if (nb2hop_tuple.neighborMainAddr == tuple.neighborMainAddr)
                 {
-                    const NeighborTuple *nb_tuple = m_state.FindNeighborTuple(nb2hop_tuple.neighborMainAddr);
+                    const NeighborTuple *nb_tuple = m_state.FindNeighborTuple(nb2hop_tuple.twoHopNeighborAddr);
                     if (nb_tuple == NULL)
                     {
                         degree++;
@@ -626,6 +637,7 @@ namespace ns3
             ///
             /// \brief Remove all covered 2-hop neighbors from N2 set.
             /// This is a helper function used by MprComputation algorithm.
+            //  把该邻居节点能到达的2-hop邻居从 N2 中删掉
             ///
             /// \param neighborMainAddr Neighbor main address.
             /// \param N2 Reference to the 2-hop neighbor set.
@@ -667,14 +679,24 @@ namespace ns3
             // (RFC 3626) for details.
             MprSet mprSet;
 
+            // 将每个邻居的链路情况存在这里
+            std::map<Ipv4Address, const LinkQosTuple*> map;
+            for(LinkQosSet::const_iterator it = m_state.GetLinkQosSet().begin(); it!= m_state.GetLinkQosSet().end(); it++){
+                if(GetMainAddress(it->localIfaceAddr) == m_mainAddress){
+                    map[it->neighborIfaceAddr] = &(*it);
+                }
+            }
+
             // N is the subset of neighbors of the node, which are
             // neighbor "of the interface I"
+            // 将对称邻居添加进N
             NeighborSet N;
             for (NeighborSet::const_iterator neighbor = m_state.GetNeighbors().begin();
                  neighbor != m_state.GetNeighbors().end(); neighbor++)
             {
                 if (neighbor->status == NeighborTuple::STATUS_SYM) // I think that we need this check
                 {
+                    
                     N.push_back(*neighbor);
                 }
             }
@@ -685,12 +707,14 @@ namespace ns3
             // (ii)  the node performing the computation
             // (iii) all the symmetric neighbors: the nodes for which there exists a symmetric
             //       link to this node on some interface.
+            // 将2-hop邻居添加到N2
             TwoHopNeighborSet N2;
             for (TwoHopNeighborSet::const_iterator twoHopNeigh = m_state.GetTwoHopNeighbors().begin();
                  twoHopNeigh != m_state.GetTwoHopNeighbors().end(); twoHopNeigh++)
             {
                 // excluding:
                 // (ii)  the node performing the computation
+                // 去除两跳邻居是自身的情况
                 if (twoHopNeigh->twoHopNeighborAddr == m_mainAddress)
                 {
                     continue;
@@ -698,6 +722,7 @@ namespace ns3
 
                 //  excluding:
                 // (i)   the nodes only reachable by members of N with willingness WILL_NEVER
+                // 去除两跳邻居无转发意愿的情况
                 bool ok = false;
                 for (NeighborSet::const_iterator neigh = N.begin(); neigh != N.end(); neigh++)
                 {
@@ -723,6 +748,7 @@ namespace ns3
                 // excluding:
                 // (iii) all the symmetric neighbors: the nodes for which there exists a symmetric
                 //       link to this node on some interface.
+                // 去除两跳邻居是一跳邻居的情况
                 for (NeighborSet::const_iterator neigh = N.begin(); neigh != N.end(); neigh++)
                 {
                     if (neigh->neighborMainAddr == twoHopNeigh->twoHopNeighborAddr)
@@ -757,8 +783,11 @@ namespace ns3
             }
 #endif // NS3_LOG_ENABLE
 
+            //开始选MPR
+
             // 1. Start with an MPR set made of all members of N with
             // N_willingness equal to WILL_ALWAYS
+            // 1. 先从邻居中选出转发意愿强烈的节点作为 MPR，同时将该节点能够到达的两跳邻居节点从两跳邻居节点表中删除
             for (NeighborSet::const_iterator neighbor = N.begin(); neighbor != N.end(); neighbor++)
             {
                 if (neighbor->willingness == OLSR_WILL_ALWAYS)
@@ -773,6 +802,7 @@ namespace ns3
             // 2. Calculate D(y), where y is a member of N, for all nodes in N.
             // (we do this later)
 
+            // 3. 将邻居节点中存在到达2-hop邻居节点只有唯一路径的节点加入mpr
             // 3. Add to the MPR set those nodes in N, which are the *only*
             // nodes to provide reachability to a node in N2.
             std::set<Ipv4Address> coveredTwoHopNeighbors;
@@ -787,6 +817,7 @@ namespace ns3
                     if (otherTwoHopNeigh->twoHopNeighborAddr == twoHopNeigh->twoHopNeighborAddr &&
                         otherTwoHopNeigh->neighborMainAddr != twoHopNeigh->neighborMainAddr)
                     {
+                        // 两跳邻居节点可以有多条路径走到
                         onlyOne = false;
                         break;
                     }
@@ -811,6 +842,7 @@ namespace ns3
                 }
             }
             // Remove the nodes from N2 which are now covered by a node in the MPR set.
+            // 将新覆盖的2-hop邻居从N2中移除
             for (TwoHopNeighborSet::iterator twoHopNeigh = N2.begin(); twoHopNeigh != N2.end();)
             {
                 if (coveredTwoHopNeighbors.find(twoHopNeigh->twoHopNeighborAddr) !=
@@ -830,6 +862,7 @@ namespace ns3
 
             // 4. While there exist nodes in N2 which are not covered by at
             // least one node in the MPR set:
+            // 4. N2 中仍有节点未被覆盖
             while (N2.begin() != N2.end())
             {
 
@@ -852,6 +885,7 @@ namespace ns3
                 }
 #endif // NS3_LOG_ENABLE
 
+                // 计算每个邻居节点的可达度。就是一个邻居能到达几个2-hop邻居
                 // 4.1. For each node in N, calculate the reachability, i.e., the
                 // number of nodes in N2 which are not yet covered by at
                 // least one node in the MPR set, and which are reachable
@@ -874,6 +908,8 @@ namespace ns3
                     reachability[r].push_back(&nb_tuple);
                 }
 
+                // 先选转发意愿最高的，然后选可达节点数最高的，最后选D(y)最高的。选一个去掉其可达的2-hop节点
+                // 遍历，从所有的里面挑一个最优秀的。（优化点：可以将所有的邻居节点放在一个优先级队列中，每次只需要取最好的就可以）
                 // 4.2. Select as a MPR the node with highest N_willingness among
                 // the nodes in N with non-zero reachability. In case of
                 // multiple choice select the node which provides
@@ -975,7 +1011,11 @@ namespace ns3
             // 1. 删除路由表中所有记录
             Clear();
 
-            // 先添加1-top邻居(对称、链路没过期)——根据邻居表
+            // if(Simulator::Now().GetSeconds() > 2 && m_mainAddress == "10.1.1.10"){
+            //     std::cout<<std::endl;
+            // }
+
+            // 先添加1-hop邻居(对称、链路没过期)——根据邻居表
             // 2. The new routing entries are added starting with the
             // symmetric neighbors (h=1) as the destination nodes.
             const NeighborSet &neighborSet = m_state.GetNeighbors();
@@ -1080,7 +1120,7 @@ namespace ns3
                 }
             }
 
-            // 从2-top邻居中挑符合条件的（不是1-top邻居、不是自身、有转发意愿）——根据2-top邻居表
+            // 从2-hop邻居中挑符合条件的（不是1-hop邻居、不是自身、有转发意愿）——根据2-hop邻居表
             //  3. for each node in N2, i.e., a 2-hop neighbor which is not a
             //  neighbor node or the node itself, and such that there exist at
             //  least one entry in the 2-hop neighbor set where
@@ -1106,7 +1146,7 @@ namespace ns3
                     continue;
                 }
 
-                // 判断是否存在至少一个entry满足2-top邻居的邻居是本节点邻居，且转发意愿不为NEVER,没有换下一个2-top邻居
+                // 判断是否存在至少一个entry满足2-hop邻居的邻居是本节点邻居，且转发意愿不为NEVER,没有换下一个2-hop邻居
                 // ...and such that there exist at least one entry in the 2-hop
                 // neighbor set where N_neighbor_main_addr correspond to a
                 // neighbor node with willingness different of WILL_NEVER...
@@ -1130,7 +1170,7 @@ namespace ns3
                     continue;
                 }
 
-                // 创建2-top邻居的路由表
+                // 创建2-hop邻居的路由表
                 // one selects one 2-hop tuple and creates one entry in the routing table with:
                 //                R_dest_addr  =  the main address of the 2-hop neighbor;
                 //                R_next_addr  = the R_next_addr of the entry in the
@@ -1150,7 +1190,7 @@ namespace ns3
                     uint32_t etx = entry.etxDistance;
                     uint32_t Etx = 1;
 
-                    // 求1-top到2-top的etx
+                    // 求1-hop到2-hop的etx
                     for (std::vector<LinkQosTuple>::const_iterator it = m_state.GetLinkQosSet().begin();
                          it != m_state.GetLinkQosSet().end(); it++)
                     {
@@ -1837,20 +1877,43 @@ namespace ns3
             m_queuedMessages.clear();
         }
 
-        void
-        RoutingProtocol::SendHello(void)
+        uint32_t RoutingProtocol::calANCR(Time now)
+        {
+            for (std::vector<std::pair<Time, Ipv4Address>>::iterator it = newConnected.begin(); it != newConnected.end();)
+            {
+                // 删除不在统计时间内的节点
+                if (it->first < (now - OLSR_NEIGHBOR_CHANGE_RATE_TIME))
+                {
+                    it = newConnected.erase(it);
+                }
+                else
+                {
+                    // 可以直接break，以后尝试
+                    // TODO
+                    it++;
+                }
+            }
+            for (std::vector<std::pair<Time, Ipv4Address>>::iterator it = newLoss.begin(); it != newLoss.end();)
+            {
+                // 删除不在统计时间内的节点
+                if (it->first < (now - OLSR_NEIGHBOR_CHANGE_RATE_TIME))
+                {
+                    it = newLoss.erase(it);
+                }
+                else
+                {
+                    // 可以直接break，以后尝试
+                    // TODO
+                    it++;
+                }
+            }
+            // 平均邻居变化率公式为 (时间区间内新增加邻居数 + 新断开邻居数)/统计时间    统计时间暂定为3*hello_interval，单位为s
+            return newConnected.size() + newLoss.size();
+        }
+
+        void RoutingProtocol::SendHello(void)
         {
             NS_LOG_FUNCTION(this);
-
-            // if (m_mainAddress == "10.1.1.1")
-            // {
-            //     Ptr<Node> node = GetObject<Node>();
-            //     Ptr<GaussMarkovMobilityModel> mobModel = node->GetObject<GaussMarkovMobilityModel>();
-            //     Vector3D pos = mobModel->GetPosition();
-            //     std::cout << "At " << Simulator::Now().GetSeconds() << " node- " << m_mainAddress
-            //               << ": Position(" << pos.x << ", " << pos.y << ", " << pos.z
-            //               << "); "<< std::endl;
-            // }
 
             olsr::MessageHeader msg;
             Time now = Simulator::Now();
@@ -1862,8 +1925,28 @@ namespace ns3
             msg.SetMessageSequenceNumber(GetMessageSequenceNumber());
             olsr::MessageHeader::Hello &hello = msg.GetHello();
 
+            uint32_t ancr = calANCR(now);
+            // if(m_mainAddress == "10.1.1.14"){
+            //     std::cout<<std::endl;
+            // }
+            hello.ANCR = ancr;
+
             hello.SetHTime(m_helloInterval);
             hello.willingness = m_willingness;
+
+            // 向hello消息中添加位置和速度信息
+            Ptr<Node> node = GetObject<Node>();
+            Ptr<GaussMarkovMobilityModel> mobModel = node->GetObject<GaussMarkovMobilityModel>();
+            Vector3D pos = mobModel->GetPosition();
+            Vector3D vel = mobModel->GetVelocity();
+
+            hello.x = (int32_t)pos.x;
+            hello.y = (int32_t)pos.y;
+            hello.z = (int16_t)pos.z;
+
+            hello.vel_x = (int16_t)vel.x;
+            hello.vel_y = (int16_t)vel.y;
+            hello.vel_z = (int16_t)vel.z;
 
             std::vector<olsr::MessageHeader::Hello::LinkMessage> &linkMessages = hello.linkMessages;
 
@@ -2244,6 +2327,10 @@ namespace ns3
                 newLinkTuple.Etx = 100; //新的链路没通信过，设置为最大值 100
 
                 link_tuple = &m_state.InsertLinkTuple(newLinkTuple);
+
+                // 记录新增加的邻居
+                newConnected.push_back(std::pair<ns3::Time, ns3::Ipv4Address>(now, senderIface));
+
                 created = true;
                 NS_LOG_LOGIC("Existing link tuple did not exist => creating new one");
             }
@@ -2377,10 +2464,88 @@ namespace ns3
                 linkQostupleForw = m_state.InsertLinkQosTuple(linkQostupleForwTmp);
                 createLinkQosForw = true;
             }
-            // if (linkQostupleForw->Etx == 0)
-            // {
-            //     std::cout << "这里linksensing新建或更新正向链路时etx == 0" << std::endl;
-            // }
+            linkQostupleForw->ancr = hello.ANCR;
+
+            // 该节点的位置和速度信息
+            Ptr<Node> node = GetObject<Node>();
+            Ptr<GaussMarkovMobilityModel> mobModel = node->GetObject<GaussMarkovMobilityModel>();
+            Vector3D pos = mobModel->GetPosition();
+            Vector3D vel = mobModel->GetVelocity();
+
+            // 相对位置
+            int32_t b = hello.x - pos.x;
+            int32_t d = hello.y - pos.y;
+            int16_t f = hello.z - pos.z;
+            // 两点间的距离
+            int32_t distance = sqrt(b * b + d * d + f * f);
+            // 相对速度
+            int16_t a = hello.vel_x - vel.x;
+            int16_t c = hello.vel_y - vel.y;
+            int16_t e = hello.vel_z - vel.z;
+
+            // 存相对位置和相对速度
+            linkQostupleForw->pos_x = b;
+            linkQostupleForw->pos_y = d;
+            linkQostupleForw->pos_z = f;
+            linkQostupleForw->vel_x = a;
+            linkQostupleForw->vel_y = c;
+            linkQostupleForw->vel_z = e;
+
+            int32_t r = m_commu_radius;
+            double_t lht = 0.0;
+            int32_t mid = 0;
+            if (a * a + c * c + e * e < 0.01)
+            {
+                lht = 1000.0;
+            }
+            else
+            {
+                if (distance > r)
+                {
+                    // 邻居此时在通信半径外，提供一个0.2s的缓冲时间，若在该时间内节点能到达通信半径，就选择，否则不选，lht值为-1
+                    b = hello.x + 0.2 * hello.vel_x - pos.x;
+                    d = hello.x + 0.2 * hello.vel_x - pos.x;
+                    f = hello.x + 0.2 * hello.vel_x - pos.x;
+                    distance = sqrt(b * b + d * d + f * f);
+                    if (distance > r)
+                    {
+                        lht = -1.0;
+                    }
+                }
+                if (lht != -1.0)
+                {
+                    mid = r * r * (a * a + c * c + e * e) - (pow(a * d - b * c, 2) + pow(a * f - b * e, 2) + pow(c * f - d * e, 2));
+                    lht = double_t(-(a * b + c * d + e * f) + sqrt(mid)) / (a * a + c * c + e * e);
+                }
+            }
+            linkQostupleForw->LHT = lht;
+
+            std::vector<uint32_t>& oldDistance = linkQostupleForw->distance;
+            if (oldDistance.size() >= 5)
+            {
+                oldDistance.erase(oldDistance.begin());
+            }
+            oldDistance.push_back(distance);
+
+            uint32_t sum = 0;
+            uint32_t squareSum = 0;
+            for (std::vector<uint32_t>::iterator it = oldDistance.begin(); it != oldDistance.end(); it++)
+            {
+                sum += *it;
+                squareSum += (*it) * (*it);
+            }
+            uint32_t n = oldDistance.size();
+            // 求方差
+            double_t lsd = double_t(squareSum) / n + pow(double_t(sum) / 5, 2);
+            linkQostupleForw->LSD = lsd;
+
+            if (m_mainAddress == "10.1.1.14")
+            {
+                std::cout << "现在是：" << now.GetSeconds() << "s,我监听到邻居的ancr:" << hello.ANCR
+                          << ", 两者之间的相对距离：" << distance
+                          << ", 与邻居的链路保持时间：" << lht << "s,与邻居的链路稳定度:" << lsd << std::endl;
+            }
+
             if (createLinkQosForw || createLinkQosRev)
             {
                 Time minTime = std::min(linkQostupleForw->time, linkQostupleRev->time);
@@ -2962,6 +3127,9 @@ OLSR::mac_failed (Ptr<Packet> p)
             }
             if (tuple->time < now)
             {
+                // 记录与邻居断开联系
+                newLoss.push_back(std::pair<Time, Ipv4Address>(now, neighborIfaceAddr));
+
                 RemoveLinkTuple(*tuple);
             }
             else if (tuple->symTime < now)
@@ -2972,6 +3140,8 @@ OLSR::mac_failed (Ptr<Packet> p)
                 }
                 else
                 {
+                    //
+
                     NeighborLoss(*tuple);
                 }
 

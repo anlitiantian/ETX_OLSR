@@ -798,7 +798,8 @@ namespace ns3
                              const Ipv4Address &senderIface);
 
             /**
-             * \brief Updates the Neighbor Set according to the information contained in
+             * \brief 根据新的hello消息更新邻居表
+             * Updates the Neighbor Set according to the information contained in
              * a new received HELLO message (following \RFC{3626}).
              * \param msg The received message.
              * \param hello The received HELLO sub-message.
@@ -807,7 +808,8 @@ namespace ns3
                                      const olsr::MessageHeader::Hello &hello);
 
             /**
-             * \brief Updates the 2-hop Neighbor Set according to the information contained
+             * \brief 根据新接收的hello消息更新2hop邻居
+             * Updates the 2-hop Neighbor Set according to the information contained
              * in a new received HELLO message (following \RFC{3626}).
              * \param msg The received message.
              * \param hello The received HELLO sub-message.
@@ -852,6 +854,19 @@ namespace ns3
 
             /// Provides uniform random variables.
             Ptr<UniformRandomVariable> m_uniformRandomVariable;
+
+        public:
+            // 通信半径，用来计算链路维持时间LHT
+            uint32_t m_commu_radius;
+
+            // 统计新连接的邻居和新断开的邻居，用来计算平均邻居变化率
+            std::vector<std::pair<Time, Ipv4Address>> newConnected;
+            std::vector<std::pair<Time, Ipv4Address>> newLoss;
+
+            // 计算ANCR
+            uint32_t calANCR(Time now);
+
+
         };
 
     }

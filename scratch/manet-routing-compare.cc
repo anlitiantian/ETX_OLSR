@@ -118,6 +118,8 @@ private:
     double m_txp;
     bool m_traceMobility;
     uint32_t m_protocol;
+
+    uint32_t m_distance;                    // 指定最大通信半径，用于计算链路维持时间
 };
 
 RoutingExperiment::RoutingExperiment()
@@ -126,7 +128,8 @@ RoutingExperiment::RoutingExperiment()
       packetsReceived(0),
       m_CSVfileName("manet-routing.output.csv"),
       m_traceMobility(false),
-      m_protocol(1) // olsr
+      m_protocol(1), // olsr
+      m_distance(200)
 {
 }
 
@@ -226,6 +229,7 @@ RoutingExperiment::CommandSetup(int argc, char **argv)
     cmd.AddValue("CSVfileName", "The name of the CSV output file name", m_CSVfileName);
     cmd.AddValue("traceMobility", "Enable mobility tracing", m_traceMobility);
     cmd.AddValue("protocol", "1=OLSR;2=AODV;3=DSDV;4=DSR;5=lpolsr", m_protocol);
+    cmd.AddValue("maxDistance","节点通信的最大距离（由txp测得）", m_distance);
     cmd.Parse(argc, argv);
     return m_CSVfileName;
 }
@@ -258,17 +262,17 @@ void RoutingExperiment::Run(int nSinks, double txp, std::string CSVfileName)
     m_txp = txp;
     m_CSVfileName = CSVfileName;
 
-    int nWifis = 25;
+    int nWifis = 50;
 
     double TotalTime = 100.0;
-    std::string rate("2048bps");
+    std::string rate("100kb/s");
     std::string phyMode("DsssRate11Mbps");
     std::string tr_name("manet-routing-compare");
     int nodeSpeed = 20; // in m/s
     int nodePause = 0;  // in s
     m_protocolName = "protocol";
 
-    Config::SetDefault("ns3::OnOffApplication::PacketSize", StringValue("64"));
+    Config::SetDefault("ns3::OnOffApplication::PacketSize", StringValue("1024"));
     Config::SetDefault("ns3::OnOffApplication::DataRate", StringValue(rate));
 
     // Set Non-unicastMode rate to unicast mode
@@ -325,7 +329,7 @@ void RoutingExperiment::Run(int nSinks, double txp, std::string CSVfileName)
 
     MobilityHelper mobility;
     mobility.SetMobilityModel("ns3::GaussMarkovMobilityModel",
-                              "Bounds", BoxValue(Box(0, 1000, 0, 1000, 0, 500)),
+                              "Bounds", BoxValue(Box(0, 2000, 0, 2000, 0, 500)),
                               "TimeStep", TimeValue(Seconds(1)),
                               "Alpha", DoubleValue(0.8),
                               "MeanVelocity", StringValue("ns3::UniformRandomVariable[Min=20|Max=30]"),
@@ -336,15 +340,16 @@ void RoutingExperiment::Run(int nSinks, double txp, std::string CSVfileName)
                               "NormalPitch", StringValue("ns3::NormalRandomVariable[Mean=0.0|Variance=0.02|Bound=0.04]"),
                               "MaxAngularVelocity", DoubleValue(0.3));
     mobility.SetPositionAllocator("ns3::RandomBoxPositionAllocator",
-                                  "X", StringValue("ns3::UniformRandomVariable[Min=200|Max=800]"),
-                                  "Y", StringValue("ns3::UniformRandomVariable[Min=200|Max=800]"),
+                                  "X", StringValue("ns3::UniformRandomVariable[Min=200|Max=1800]"),
+                                  "Y", StringValue("ns3::UniformRandomVariable[Min=200|Max=1800]"),
                                   "Z", StringValue("ns3::UniformRandomVariable[Min=100|Max=400]"));
     mobility.Install(adhocNodes);
 
     AodvHelper aodv;
     OlsrHelper olsr;
+    olsr.Set("MaxCommunicationRadius", IntegerValue(m_distance));
+
     DsdvHelper dsdv;
-    //   Lp_OlsrHelper lpolsr;
     DsrHelper dsr;
     DsrMainHelper dsrMain;
     Ipv4ListRoutingHelper list;

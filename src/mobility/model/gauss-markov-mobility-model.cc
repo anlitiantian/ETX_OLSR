@@ -83,7 +83,7 @@ namespace ns3
                                           MakePointerAccessor(&GaussMarkovMobilityModel::m_normalPitch),
                                           MakePointerChecker<NormalRandomVariable>())
                             .AddAttribute("MaxAngularVelocity",
-                                          "An angular velocity set manually.",
+                                          "手动设置的一个角速度.",
                                           DoubleValue(1.5),
                                           MakeDoubleAccessor(&GaussMarkovMobilityModel::m_Wmax),
                                           MakeDoubleChecker<double>());

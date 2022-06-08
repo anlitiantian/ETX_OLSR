@@ -4,7 +4,6 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "(gdb) Pipe Launch",
             "type": "cppdbg",
@@ -16,7 +15,6 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            
             "pipeTransport": {
                 "debuggerPath": "",  // leave blank
                 "pipeProgram": "${workspaceFolder}/waf",
@@ -27,6 +25,7 @@
                     "--args", "%s",                             // Need to add --args %s to the gdb call
                     "\"",                                       // closing quote for command template
                     "--run", "${fileBasenameNoExtension}",      // Run call with the filename
+                    
                     ],
                     "quoteArgs":false,
                     "pipeCwd": ""

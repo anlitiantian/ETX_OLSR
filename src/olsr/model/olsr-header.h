@@ -353,11 +353,17 @@ public:
     0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
 
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-   |          Reserved             |     Htime     |  Willingness  |
+   |              ANCR             |     Htime     |  Willingness  |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |                           longitude                           |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |                            latitude                           |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |            altitude           |            velocity_x         |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |           velocity_y          |            velocity_z         |
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
    |   Link Code   |   Reserved    |       Link Message Size       |
-   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-   |                  Neighbor Interface Address                   |
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
    |                  Neighbor Interface Address                   |
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -374,8 +380,6 @@ public:
    :                                                               :
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
    |   Link Code   |   Reserved    |       Link Message Size       |
-   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-   |                  Neighbor Interface Address                   |
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
    |                  Neighbor Interface Address                   |
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -394,6 +398,9 @@ public:
       std::vector<Ipv4Address> neighborInterfaceAddresses;  //!< Neighbor interface address container.
       std::vector<uint32_t> neighborEtxs; // ETX data , number of received hello package. 
     };
+
+
+    uint16_t ANCR;  // 记录该节点的平均邻居变化率
 
     uint8_t hTime;  //!< HELLO emission interval (coded)
 
@@ -416,6 +423,16 @@ public:
     }
 
     uint8_t willingness; //!< The willingness of a node to carry and forward traffic for other nodes.
+
+    // 记录该节点的位置和速度信息，便于其他邻居接收处理
+    // 这里的x、y、z代替经纬度和海拔高度
+    int32_t x;
+    int32_t y;
+    int16_t z;
+    int16_t vel_x;
+    int16_t vel_y;
+    int16_t vel_z;
+    
     std::vector<LinkMessage> linkMessages; //!< Link messages container.
 
     /**
