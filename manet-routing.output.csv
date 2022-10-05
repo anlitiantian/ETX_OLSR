@@ -1,12 +1,1 @@
 SimulationSecond,ReceiveRate,PacketsReceived,NumberOfSinks,RoutingProtocol,TransmissionPower
-0,0,0,10,OLSR,15
-1,0,0,10,OLSR,15
-2,0,0,10,OLSR,15
-3,0,0,10,OLSR,15
-4,0,0,10,OLSR,15
-5,0,0,10,OLSR,15
-6,0,0,10,OLSR,15
-7,0,0,10,OLSR,15
-8,0,0,10,OLSR,15
-9,0,0,10,OLSR,15
-10,0,0,10,OLSR,15

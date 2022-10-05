@@ -300,14 +300,14 @@ namespace ns3
             return m_mprSet;
         }
 
-        void OlsrState::printMprSet(){
-            for(std::set<Ipv4Address>::iterator it = m_mprSet.begin(); it != m_mprSet.end(); it++){
-                std::cout<<*it<<",";
+        void OlsrState::printMprSet()
+        {
+            for (std::set<Ipv4Address>::iterator it = m_mprSet.begin(); it != m_mprSet.end(); it++)
+            {
+                std::cout << *it << ",";
             }
-            std::cout<<std::endl;
+            std::cout << std::endl;
         }
-
-
 
         /********** Duplicate Set Manipulation **********/
 
@@ -403,9 +403,11 @@ namespace ns3
             return m_linkSet.back();
         }
 
-        void OlsrState::printLinkSet(){
-            for(std::vector<LinkTuple>::iterator it = m_linkSet.begin(); it != m_linkSet.end(); it++){
-                std::cout<<"本地接口地址:"<<it->localIfaceAddr<<",邻居接口地址:"<<it->neighborIfaceAddr<<std::endl;
+        void OlsrState::printLinkSet()
+        {
+            for (std::vector<LinkTuple>::iterator it = m_linkSet.begin(); it != m_linkSet.end(); it++)
+            {
+                std::cout << "本地接口地址:" << it->localIfaceAddr << ",邻居接口地址:" << it->neighborIfaceAddr << std::endl;
             }
         }
 
@@ -600,77 +602,23 @@ namespace ns3
 
         //**************************添加 LinkQosSet******************************//
 
-        LinkQosTuple *OlsrState::FindLinkQosTuple(const Ipv4Address &localIfaceAddr, const Ipv4Address &neighborIfaceAddr)
-        {
-            for (LinkQosSet::iterator it = m_linkQosSet.begin(); it != m_linkQosSet.end(); it++)
-            {
-                if ((it->localIfaceAddr == localIfaceAddr && it->neighborIfaceAddr == neighborIfaceAddr))
-                {
-                    return &(*it);
-                }
-            }
-            return NULL;
-        }
-
-        LinkQosTuple *OlsrState::FindLinkQosTuple(const Ipv4Address &neighborIfaceAddr)
-        {
-            for (LinkQosSet::iterator it = m_linkQosSet.begin(); it != m_linkQosSet.end(); it++)
-            {
-                if (it->neighborIfaceAddr == neighborIfaceAddr)
-                {
-                    return &(*it);
-                }
-            }
-            return NULL;
-        }
-
         void OlsrState::EraseLinkQosTuple(const LinkQosTuple &tuple)
         {
-            for (LinkQosSet::iterator it = m_linkQosSet.begin(); it != m_linkQosSet.end(); it++)
-            {
-                if (*it == tuple)
-                {
-                    m_linkQosSet.erase(it);
-                    break;
-                }
-            }
+            m_linkQosSet.erase(tuple.neighborMainAddr);
         }
 
         LinkQosTuple *OlsrState::InsertLinkQosTuple(const LinkQosTuple &tuple)
         {
-            m_linkQosSet.push_back(tuple);
-            return &(m_linkQosSet.back());
+            m_linkQosSet[tuple.neighborMainAddr] = tuple;
+            return &(m_linkQosSet[tuple.neighborMainAddr]);
         }
 
-        void OlsrState::InsertOrUpdateLinkQosTuple(const Ipv4Address &localIfaceAddr, const Ipv4Address &neighborIfaceAddr,
-                                                   uint32_t etx, Time now)
+        void OlsrState::printLinkQosTable()
         {
-            bool find = false;
             for (LinkQosSet::iterator it = m_linkQosSet.begin(); it != m_linkQosSet.end(); it++)
             {
-                if (it->localIfaceAddr == localIfaceAddr && it->neighborIfaceAddr == neighborIfaceAddr)
-                {
-                    it->Etx = etx;
-                    it->time = now;
-                    find = true;
-                    break;
-                }
-            }
-            if (!find)
-            {
-                LinkQosTuple linkQosTuple;
-                linkQosTuple.localIfaceAddr = localIfaceAddr;
-                linkQosTuple.neighborIfaceAddr = neighborIfaceAddr;
-                linkQosTuple.Etx = etx;
-                linkQosTuple.time = now;
-                InsertLinkQosTuple(linkQosTuple);
-            }
-        }
-
-        void OlsrState::printLinkQosTable(){
-            for (LinkQosSet::iterator it = m_linkQosSet.begin(); it != m_linkQosSet.end(); it++)
-            {
-                std::cout<<"本地："<<it->localIfaceAddr<<"，邻居："<<it->neighborIfaceAddr<<"，etx："<<it->Etx<<std::endl;
+                std::cout << "邻居：" << it->first << "，正向链路质量：" << it->second.EtxForw
+                          << "，反向链路质量：" << it->second.EtxRev << std::endl;
             }
         }
 

@@ -76,8 +76,6 @@ namespace ns3
             Time asymTime;
             /// Time at which this tuple expires and must be removed.
             Time time;
-            /// ETX of this link local->neighbor                          仅表示单向的链路质量
-            uint32_t Etx;
         };
 
         static inline bool
@@ -100,21 +98,56 @@ namespace ns3
 
         /// \ingroup olsr
         /// A LinkQos Tuple.
+        // struct LinkQosTuple
+        // {
+        //     /// Interface address of the local node.
+        //     Ipv4Address localIfaceAddr;
+        //     /// Interface address of the neighbor node.
+        //     Ipv4Address neighborIfaceAddr;
+        //     /// Time at which this tuple expires and must be removed.
+        //     Time time;
+
+        //     // 本地节点发送到邻居的hello包个数
+        //     uint32_t sendHelloSum;
+        //     // 本地节点接收到邻居的helloAck包个数
+        //     uint32_t receiveAckSum;
+        //     /// ETX of this link local->neighbor，后期计算
+        //     uint32_t Etx;
+
+        //     // 记录平均邻居变化率
+        //     uint16_t ancr;
+
+        //     // 用来统计链路维持时间LHT
+        //     // 相对位置
+        //     int32_t pos_x;
+        //     int32_t pos_y;
+        //     int16_t pos_z;
+        //     // 相对速度
+        //     int16_t vel_x;
+        //     int16_t vel_y;
+        //     int16_t vel_z;
+        //     std::double_t LHT;
+
+        //     // 用来计算链路稳定度LSD
+        //     std::vector<uint32_t> distance;
+        //     std::double_t LSD;
+        // };
+
+        /// \ingroup olsr
+        /// A LinkQos Tuple.不考虑过期时间，用于长期观察更新
         struct LinkQosTuple
         {
-            /// Interface address of the local node.
-            Ipv4Address localIfaceAddr;
-            /// Interface address of the neighbor node.
-            Ipv4Address neighborIfaceAddr;
-            /// Time at which this tuple expires and must be removed.
-            Time time;
+            // 存邻居的主地址
+            Ipv4Address neighborMainAddr;
 
-            // 本地节点发送到邻居的hello包个数
-            uint32_t sendHelloSum;
-            // 本地节点接收到邻居的helloAck包个数
-            uint32_t receiveAckSum;
-            /// ETX of this link local->neighbor，后期计算
-            uint32_t Etx;
+            // 本地节点发送到邻居的hello包的时间，存ms值
+            std::vector<uint32_t> sendHelloTime;
+            // 本地节点接收到邻居的helloAck包时间，存ms值
+            std::vector<uint32_t> receiveHelloAckTime;
+            // 正向链路质量，计算为成功发送一个数据包需要发送的次数
+            uint32_t EtxForw;
+            // 反向链路质量，计算为邻居发送一个数据包需要发送的次数（只能从邻居的hello包中获取）
+            uint32_t EtxRev;
 
             // 记录平均邻居变化率
             uint16_t ancr;
@@ -133,23 +166,27 @@ namespace ns3
             // 用来计算链路稳定度LSD
             std::vector<uint32_t> distance;
             std::double_t LSD;
+
+            // 后续可以添加衡量拥塞程度的指标
+            // TODO
         };
 
         static inline bool
         operator==(const LinkQosTuple &a, const LinkQosTuple &b)
         {
-            return (a.localIfaceAddr == b.localIfaceAddr && a.neighborIfaceAddr == b.neighborIfaceAddr);
+            return (a.neighborMainAddr == b.neighborMainAddr && a.ancr == b.ancr && a.EtxForw == b.EtxForw && a.EtxRev == b.EtxRev
+                    && a.LHT == b.LHT && a.LSD == b.LSD);
         }
 
         static inline std::ostream &
         operator<<(std::ostream &os, const LinkQosTuple &tuple)
         {
-            os << "LinkQosTuple(localIfaceAddr=" << tuple.localIfaceAddr
-               << ", neighborIfaceAddr=" << tuple.neighborIfaceAddr
-               << ", expTime=" << tuple.time
-               << ", sendHelloSum=" << tuple.sendHelloSum
-               << ", receiveAckSum=" << tuple.receiveAckSum
-               << ", etx=" << tuple.Etx
+            os << "LinkQosTuple(neighborMainAddr=" << tuple.neighborMainAddr
+               << ", EtxForw=" << tuple.EtxForw
+               << ", EtxRev=" << tuple.EtxRev
+               << ", 平均邻居变化率=" << tuple.ancr
+               << ", 链路维持时间=" << tuple.LHT
+               << ", 链路稳定度=" << tuple.LSD
                << ")";
             return os;
         }
@@ -353,7 +390,7 @@ namespace ns3
         typedef std::vector<AssociationTuple> AssociationSet;       //!< Association Set type.
         typedef std::vector<Association> Associations;              //!< Association Set type.
 
-        typedef std::vector<LinkQosTuple> LinkQosSet; //链路质量集合                                      存接口地址
+        typedef std::map<Ipv4Address, LinkQosTuple> LinkQosSet;     //链路质量集合                        存邻居主地址
 
     }
 } // namespace ns3, olsr

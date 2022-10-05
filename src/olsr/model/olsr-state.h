@@ -451,16 +451,15 @@ namespace ns3
                 return m_linkQosSet;
             }
 
-            LinkQosTuple *FindLinkQosTuple(const Ipv4Address &localIfaceAddr, const Ipv4Address &neighborIfaceAddr);
-
-            LinkQosTuple *FindLinkQosTuple(const Ipv4Address &neighborIfaceAddr);
+            LinkQosSet& GetLinkQosSet()
+            {
+                return m_linkQosSet;
+            }
 
             void EraseLinkQosTuple(const LinkQosTuple &tuple);
 
             LinkQosTuple *InsertLinkQosTuple(const LinkQosTuple &tuple);
 
-            void InsertOrUpdateLinkQosTuple(const Ipv4Address &localIfaceAddr, const Ipv4Address &neighborIfaceAddr,
-                                            uint32_t etx, Time now);
             void printLinkQosTable();
         };
 

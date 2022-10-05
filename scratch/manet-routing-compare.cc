@@ -129,7 +129,7 @@ RoutingExperiment::RoutingExperiment()
       m_CSVfileName("manet-routing.output.csv"),
       m_traceMobility(false),
       m_protocol(1), // olsr
-      m_distance(200)
+      m_distance(300)
 {
 }
 
@@ -265,11 +265,11 @@ void RoutingExperiment::Run(int nSinks, double txp, std::string CSVfileName)
     int nWifis = 50;
 
     double TotalTime = 100.0;
-    std::string rate("100kb/s");
+    std::string rate("10kb/s");
     std::string phyMode("DsssRate11Mbps");
     std::string tr_name("manet-routing-compare");
-    int nodeSpeed = 20; // in m/s
-    int nodePause = 0;  // in s
+    // int nodeSpeed = 20; // in m/s
+    // int nodePause = 0;  // in s
     m_protocolName = "protocol";
 
     Config::SetDefault("ns3::OnOffApplication::PacketSize", StringValue("1024"));
@@ -415,21 +415,21 @@ void RoutingExperiment::Run(int nSinks, double txp, std::string CSVfileName)
         temp.Stop(Seconds(TotalTime));
     }
 
-    std::stringstream ss;
-    ss << nWifis;
-    std::string nodes = ss.str();
+    // std::stringstream ss;
+    // ss << nWifis;
+    // std::string nodes = ss.str();
 
-    std::stringstream ss2;
-    ss2 << nodeSpeed;
-    std::string sNodeSpeed = ss2.str();
+    // std::stringstream ss2;
+    // ss2 << nodeSpeed;
+    // std::string sNodeSpeed = ss2.str();
 
-    std::stringstream ss3;
-    ss3 << nodePause;
-    std::string sNodePause = ss3.str();
+    // std::stringstream ss3;
+    // ss3 << nodePause;
+    // std::string sNodePause = ss3.str();
 
-    std::stringstream ss4;
-    ss4 << rate;
-    std::string sRate = ss4.str();
+    // std::stringstream ss4;
+    // ss4 << rate;
+    // std::string sRate = ss4.str();
 
     // NS_LOG_INFO ("Configure Tracing.");
     // tr_name = tr_name + "_" + m_protocolName +"_" + nodes + "nodes_" + sNodeSpeed + "speed_" + sNodePause + "pause_" + sRate + "rate";
@@ -472,10 +472,10 @@ void RoutingExperiment::Run(int nSinks, double txp, std::string CSVfileName)
 
     CheckThroughput();
     countTime();
-    // showRoutingTable(adhocNodes.Get(0));
+    // showRoutingTable(adhocNodes.Get(0));                 //定期打印节点0的路由表
     // showPosition(adhocNodes.Get(0));
 
-    AnimationInterface anim("manet-routing-compare.xml"); //生成动画演示kdosfs
+    AnimationInterface anim("manet-routing-compare.xml"); //生成动画演示
 
     Simulator::Stop(Seconds(TotalTime));
     Simulator::Run();

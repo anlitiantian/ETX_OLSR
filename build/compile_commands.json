@@ -7261,7 +7261,7 @@
   },
   {
     "directory": "/home/mrliu/ns333/ns333/build",
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_SEMAPHORE_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_GCRYPT=1 -DNS3_ENABLE_EXAMPLES ../scratch/subdir/scratch-simulator-subdir.cc -c -o/home/mrliu/ns333/ns333/build/scratch/subdir/scratch-simulator-subdir.cc.5.o -DHAVE_BOOST_UNITS",
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_SEMAPHORE_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_GCRYPT=1 -DNS3_ENABLE_EXAMPLES ../scratch/subdir/scratch-simulator-subdir.cc -c -o/home/mrliu/ns333/ns333/build/scratch/subdir/scratch-simulator-subdir.cc.6.o -DHAVE_BOOST_UNITS",
     "file": "../scratch/subdir/scratch-simulator-subdir.cc"
   },
   {
@@ -7446,7 +7446,7 @@
   },
   {
     "directory": "/home/mrliu/ns333/ns333/build",
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_SEMAPHORE_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_GCRYPT=1 -DNS3_ENABLE_EXAMPLES ../scratch/first.cc -c -o/home/mrliu/ns333/ns333/build/scratch/first.cc.15.o -DHAVE_BOOST_UNITS",
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_SEMAPHORE_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_GCRYPT=1 -DNS3_ENABLE_EXAMPLES ../scratch/first.cc -c -o/home/mrliu/ns333/ns333/build/scratch/first.cc.8.o -DHAVE_BOOST_UNITS",
     "file": "../scratch/first.cc"
   },
   {
@@ -7506,7 +7506,7 @@
   },
   {
     "directory": "/home/mrliu/ns333/ns333/build",
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_SEMAPHORE_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_GCRYPT=1 -DNS3_ENABLE_EXAMPLES ../scratch/simple-olsr.cc -c -o/home/mrliu/ns333/ns333/build/scratch/simple-olsr.cc.6.o -DHAVE_BOOST_UNITS",
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_SEMAPHORE_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_GCRYPT=1 -DNS3_ENABLE_EXAMPLES ../scratch/simple-olsr.cc -c -o/home/mrliu/ns333/ns333/build/scratch/simple-olsr.cc.7.o -DHAVE_BOOST_UNITS",
     "file": "../scratch/simple-olsr.cc"
   },
   {
@@ -7528,5 +7528,10 @@
     "directory": "/home/mrliu/ns333/ns333/build",
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_SEMAPHORE_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_GCRYPT=1 -DNS3_ENABLE_EXAMPLES ../scratch/distanceTest-b.cc -c -o/home/mrliu/ns333/ns333/build/scratch/distanceTest-b.cc.4.o -DHAVE_BOOST_UNITS",
     "file": "../scratch/distanceTest-b.cc"
+  },
+  {
+    "directory": "/home/mrliu/ns333/ns333/build",
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_SEMAPHORE_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_GCRYPT=1 -DNS3_ENABLE_EXAMPLES ../scratch/test-manet-routing-compare.cc -c -o/home/mrliu/ns333/ns333/build/scratch/test-manet-routing-compare.cc.5.o -DHAVE_BOOST_UNITS",
+    "file": "../scratch/test-manet-routing-compare.cc"
   }
 ]

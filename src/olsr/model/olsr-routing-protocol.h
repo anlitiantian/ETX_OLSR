@@ -44,6 +44,7 @@
 
 #include <vector>
 #include <map>
+#include <algorithm>
 
 /// Testcase for MPR computation mechanism
 class OlsrMprTestCase;
@@ -471,9 +472,6 @@ namespace ns3
              */
             void LinkTupleTimerExpire(Ipv4Address neighborIfaceAddr);
 
-            // 正向链路和反向链路的过期，一块过期
-            void LinkQosTupleTimerExpire(Ipv4Address localIfaceAddr, Ipv4Address neighborIfaceAddr);
-
             /**
              * \brief Removes 2_hop neighbor tuple_ if expired. Else the timer is rescheduled to expire at tuple_->time().
              *
@@ -818,7 +816,8 @@ namespace ns3
                                            const olsr::MessageHeader::Hello &hello);
 
             /**
-             * \brief Updates the MPR Selector Set according to the information contained in
+             * \brief 根据计算完的mpr填充mpr_selector表
+             * Updates the MPR Selector Set according to the information contained in
              * a new received HELLO message (following \RFC{3626}).
              * \param msg The received message.
              * \param hello The received HELLO sub-message.
@@ -858,6 +857,8 @@ namespace ns3
         public:
             // 通信半径，用来计算链路维持时间LHT
             uint32_t m_commu_radius;
+            // 最近一次发送hello包的时间，用在processHelloAck函数内
+            Time lastSendHelloTime;
 
             // 统计新连接的邻居和新断开的邻居，用来计算平均邻居变化率
             std::vector<std::pair<Time, Ipv4Address>> newConnected;

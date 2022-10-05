@@ -4,9 +4,10 @@ set title "Flow vs Throughput"
 set xlabel "Flow"
 set ylabel "Throughput"
 plot "-"  title "Throughput" with linespoints
-1 67.5076
-2 47.7652
-3 4.83997
-4 102.356
-5 71.2654
+1 -0
+2 1.78723
+3 1.9052
+4 -0
+5 14.2481
+6 2.80095
 e
